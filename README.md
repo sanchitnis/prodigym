@@ -1,5 +1,16 @@
 # PROJECT PRODIGY: Human-AI Collaboration Meta-Venture
 
+<div align="center">
+
+![Project Status](https://img.shields.io/badge/Project_Status-Active_Meta--Venture-6366f1?style=for-the-badge&logo=rocket&logoColor=white)
+![AI Engine](https://img.shields.io/badge/AI_Engine-Gemini_%7C_Claude_%7C_GPT--4o-a855f7?style=for-the-badge&logo=openai&logoColor=white)
+![Framework](https://img.shields.io/badge/Framework-Srujana_Pathway-06b6d4?style=for-the-badge&logo=gitbook&logoColor=white)
+![Architecture](https://img.shields.io/badge/Architecture-iSPIRT_DPI_Model-10b981?style=for-the-badge&logo=diagramsnet&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/Web_Portal-Live_Site-3b82f6?style=for-the-badge&logo=github&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-f59e0b?style=for-the-badge&logo=open-source-initiative&logoColor=white)
+
+</div>
+
 > **WHAT:** **P**ipeline for **R**esearch **O**riented **D**evelopment with **I**ntelligence of **G**lobal **Y**outh  
 > **HOW:** *Building Our Common Future through Human + Augmented Intelligence — A Collaborative Meta-Venture Studio powered by Agentic Graph Engineering*  
 > **RESULTING IN (STRATEGIC TRIAD):**  
