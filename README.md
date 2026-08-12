@@ -19,7 +19,7 @@ Unlike traditional incubators or single software projects, **PRODIGY is a Meta-V
 
 This workspace utilizes **Agentic Graph Engineering** across four interconnected workstreams:
 
-1. 🎯 **Strategy & Benchmarking Engine** ([strategy/strategy_and_benchmarking.md](strategy/strategy_and_benchmarking.md)): Comparative synthesis against 7 global models (MIT Media Lab/REDX, Y Combinator, Amul, Google X, Entrepreneur First, Pioneer, Stanford d.school) and multi-AI feedback prompt protocols for Claude 3.5 & GPT-4o.
+1. 🎯 **Strategy & Global Learnings Engine** ([strategy/strategy_and_learnings.md](strategy/strategy_and_learnings.md)): Comparative synthesis of **Learnings From** 12 premier global models (iSPIRT DPI, École 42, Minerva, Apple CBL, Aalborg PBL, MIT Media Lab/REDX, Y Combinator, Amul, Google X, Entrepreneur First, Pioneer, Stanford d.school) and multi-AI prompt templates for Claude 3.5 & GPT-4o.
 2. ⚡ **Meta-Venture Plan & Resource Procurement** ([planning/meta_venture_plan.md](planning/meta_venture_plan.md)): Master operational roadmap for "Project 0" (Branding, Web Portal, AI/Cloud Compute Credits from Google Cloud, OpenAI, AWS, Microsoft).
 3. 📚 **Collaborator Learning Engine** ([wiki/index.md](wiki/index.md), [wiki/spot_probe_strategy.md](wiki/spot_probe_strategy.md) & [notebooks/gemini_prompt_playbook.md](notebooks/gemini_prompt_playbook.md)): Project-level Obsidian Wiki and Gemini prompt playbooks for collaborators to learn venture studio building and prompt engineering.
 4. 🤝 **Mentor Network, Ecosystem & Leaderboard** ([data/](data/)): Dynamic showcase schemas for active projects, domain mentors, institutional hubs, and individual/institutional contribution leaderboards.
@@ -74,8 +74,8 @@ prodigy/
 ├── style.css                          # Custom styles for portal
 ├── docs/                              # Vision & foundational concept documentation
 │   └── conceptnote.md                 # Executive Concept Note
-├── strategy/                          # Strategy & Benchmarking Engine
-│   └── strategy_and_benchmarking.md   # Global benchmark matrix & multi-AI feedback prompts
+├── strategy/                          # Strategy & Global Learnings Engine
+│   └── strategy_and_learnings.md      # Learnings from 12 global models & multi-AI feedback prompts
 ├── planning/                          # Operational Tracking & Resource Procurement Engine
 │   └── meta_venture_plan.md           # Project 0 operational master plan & cloud credits roadmap
 ├── wiki/                              # Project-level Obsidian Wiki knowledge base
@@ -98,7 +98,7 @@ prodigy/
 
 - 🌐 **Live Web Portal**: [https://sanchitnis.github.io/prodigy/](https://sanchitnis.github.io/prodigy/)
 - 📄 [Executive Concept Note](docs/conceptnote.md)
-- 🎯 [Strategy & Benchmarking Matrix](strategy/strategy_and_benchmarking.md)
+- 🎯 [Strategy & Global Learnings Matrix](strategy/strategy_and_learnings.md)
 - ⚡ [Meta-Venture Execution Plan](planning/meta_venture_plan.md)
 - 🧠 [Ramesh Raskar Spot-Probe Strategy](wiki/spot_probe_strategy.md)
 - 📝 [Agent Suggestion Log](logs/agent_suggestions.md)
