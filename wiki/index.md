@@ -4,60 +4,56 @@
 
 ---
 
-## 📚 Core Learning Modules
+## 📚 Core Learning Modules & Concept Knowledge Base
 
 ```
 wiki/
-├── index.md                   # Wiki main index & module overview (this file)
-├── spot_probe_strategy.md     # Dedicated Ramesh Raskar Spot-Probe Framework
-├── 01-foundations/            # Human + Augmented Intelligence & 4 C Skills
-├── 02-ai-agentics/            # Multi-Agent Architecture & Prompt Engineering
-├── 03-venture-building/       # Lean Validation, Business Model Canvas, & SMI Rubrics
-└── 04-resources/              # Curated Web Resources, Papers & Video Lectures
+├── index.md                                 # Wiki main index (this file)
+├── spot_probe_strategy.md                   # Ramesh Raskar Spot-Probe Framework reference
+│
+├── 🎯 opportunity_discovery/                 # Phase 1: Opportunity Discovery & Deep-Tech
+│   ├── spot_probe_framework.md              # Ramesh Raskar's SPOT-PROBE Engine (MIT REDX)
+│   └── google_x_moonshot.md                 # Google X Moonshot & Monkey-First Principle
+│
+├── 🔄 hypothesis_validation/                # Phase 2: Hypothesis Validation & PMFit
+│   ├── lean_startup.md                      # Eric Ries' Lean Startup (Build-Measure-Learn)
+│   └── customer_development.md              # Steve Blank's Customer Development (GOOTB)
+│
+├── 📊 value_architecture/                    # Phase 3: User-Centric Value Architecture
+│   ├── strategyzer_canvas.md                # Strategyzer Business Model & Value Prop Canvas
+│   ├── jobs_to_be_done.md                   # Clayton Christensen's Jobs-to-be-Done (JTBD)
+│   └── design_sprint.md                     # Jake Knapp's GV 5-Day Design Sprint
+│
+└── 🚦 capital_deployment/                    # Phase 4: Stage-Gate & Capital Deployment
+    ├── disciplined_entrepreneurship.md      # Bill Aulet's MIT 24-Step Framework
+    └── stage_gate_system.md                 # Robert G. Cooper Stage-Gate System
 ```
 
 ---
 
-### Module 1: Foundations of Human + Augmented Intelligence (HEITL)
-- **Understanding AGI Shift**: Why standard coding/IT jobs are transforming into Human-Expert-in-the-Loop roles.
-- **The 4 Cs**: Mastering **Critical Thinking**, **Communication**, **Collaboration**, and **Creativity**.
-- **Personal Agency & Self-Regulation**: How student leads manage autonomous AI co-working workflows.
+## 🧠 Venture Development Frameworks Map
+
+### 1. 🎯 Opportunity Discovery & Deep-Tech Innovation
+- [[opportunity_discovery/spot_probe_framework|Ramesh Raskar's SPOT-PROBE Framework]]: Spotting friction, Brainswarming, Time-Cost-Reach plots, and Hexagon of Ideas.
+- [[opportunity_discovery/google_x_moonshot|Google X Moonshot Methodology]]: 3-part intersection, Kill-Fast Culture, and the **Monkey-First Principle**.
+
+### 2. 🔄 Hypothesis-Driven Validation & Product-Market Fit
+- [[hypothesis_validation/lean_startup|Eric Ries' Lean Startup Framework]]: Build-Measure-Learn loop, MVPs, Validated Learning, and Pivot vs. Persevere.
+- [[hypothesis_validation/customer_development|Steve Blank's Customer Development Method]]: 4-Step Model and **Get Out Of The Building (GOOTB)**.
+
+### 3. 📊 User-Centric & Strategic Value Architecture
+- [[value_architecture/strategyzer_canvas|Strategyzer Business Model & Value Prop Canvas]]: 9 building blocks of BMC and Customer Profile vs. Value Map alignment.
+- [[value_architecture/jobs_to_be_done|Clayton Christensen's Jobs-to-be-Done (JTBD)]]: Functional, emotional, and social dimensions of consumption.
+- [[value_architecture/design_sprint|Jake Knapp's Design Sprint (GV)]]: Compressed 5-day design, prototyping, and user testing sequence.
+
+### 4. 🚦 Stage-Gate & Capital Deployment Methodologies
+- [[capital_deployment/disciplined_entrepreneurship|Disciplined Entrepreneurship (Bill Aulet / MIT)]]: 24-step roadmap, Beachhead TAM, Persona, DMU, and COCA vs. LTV.
+- [[capital_deployment/stage_gate_system|Stage-Gate System (Robert G. Cooper)]]: Incremental capital allocation, Gate 1-4 criteria, and Go/Kill/Hold decisions.
 
 ---
 
-### Module 2: Ramesh Raskar's Spot-Probe Engine
-- 📄 **Dedicated Strategy Document**: [Ramesh Raskar Spot-Probe Framework Reference](spot_probe_strategy.md)
-- **Spotting Friction**: Dissecting domain friction in healthcare, education, agriculture, and civic systems.
-- **Brainswarming vs. Brainstorming**: Graph-based problem decomposition.
-- **Time-Cost-Reach Plots**: Prioritizing micro-probe experiments.
-- **Hexagon of Ideas**: Cross-disciplinary innovation fusion.
-- **Reference Video**: [Ramesh Raskar TEDx Talk: How to Think Like an MIT Media Lab Inventor](https://www.youtube.com/watch?v=fYnJPtEJj4s).
-
----
-
-### Module 3: AI Agentic Workflows & Prompt Engineering
-- **Agentic Design Patterns**: Reflection, Tool Use, Planning, and Multi-Agent Orchestration.
-- **Prompt Engineering Playbook**: [Gemini Prompt Playbook](../notebooks/gemini_prompt_playbook.md).
-- **Automated Benchmarking & Evals**: Setting up regression tests for AI output quality.
-
----
-
-### Module 4: Venture Building & Scaling Frameworks
-- **Venture Frameworks Skill Reference**: [.agents/skills/venture-development-frameworks/SKILL.md](../.agents/skills/venture-development-frameworks/SKILL.md)
-- **Steve Blank's GOOTB**: Customer Discovery and interviewing techniques.
-- **Strategyzer BMC/VPC**: Mapping Value Propositions to Customer Pains & Gains.
-- **Clayton Christensen's JTBD**: Finding non-obvious customer motivations.
-- **Stage-Gate Capital Allocation**: Preparing ventures for Stage 4 commercial hatching.
-
----
-
-### Module 5: Curated Web Resources & Master Reading List
-1. **Books**:
-   - *Disciplined Entrepreneurship* by Bill Aulet (MIT)
-   - *The Lean Startup* by Eric Ries
-   - *Competing Against Time / Jobs-to-be-Done* by Clayton Christensen
-   - *Business Model Generation* by Alexander Osterwalder
-2. **Online Repositories & Guides**:
-   - YC Startup Library ([ycombinator.com/library](https://www.ycombinator.com/library))
-   - MIT Media Lab REDX Framework ([redx.io](https://redx.io))
-   - Google Design Sprint Guide ([thesprintbook.com](https://www.thesprintbook.com))
+## 🔗 Related Resources & Tools
+- 🧰 Agent Skill Reference: [.agents/skills/venture-development-frameworks/SKILL.md](../.agents/skills/venture-development-frameworks/SKILL.md)
+- 🧪 Prompt Templates: [Gemini Prompt Playbook](../notebooks/gemini_prompt_playbook.md)
+- 🎯 Strategy Matrix: [Strategy & Benchmarking Engine](../strategy/strategy_and_benchmarking.md)
+- 📄 Foundational Concept: [Executive Concept Note](../docs/conceptnote.md)
