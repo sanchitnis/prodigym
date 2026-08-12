@@ -104,12 +104,32 @@ prodigy/
 
 ---
 
+## 🤝 Ecosystem Call & Registration
+
+Project PRODIGY invites collaborators across five operational roles to join our global meta-venture network:
+
+| Persona / Role | Target Contributors | What You Gain |
+| :--- | :--- | :--- |
+| **🧙‍♂️ Mentors & HEITL Experts** | Senior engineers, AI researchers, serial founders, domain architects. | Direct access to top-tier HEITL student talent, co-authoring patents/papers, advisory equity/roles in Stage 4 spin-offs, social impact recognition. |
+| **🏛️ Institutional Hubs & Orgs** | Universities, colleges, corporate R&D labs, civic organizations. | Embedding Srujana Pathway R&D into STEAM curricula, institutional leaderboard ranking, priority licensing of Stage 3/4 solutions. |
+| **🎓 Participants & Builders** | Students, faculty members, industry professionals, startup founders, life-long learners. | Hands-on 4 C skill development, Srujana Stage 1–4 pathway progression, real-world portfolio building, startup incubation, marquee career placement. |
+| **🛠️ Support Experts & Partners** | Patent/IP attorneys, cloud/AI infrastructure providers, legal advisors, VCs & angel investors. | Early deal-flow access to vetted Stage 3/4 ventures, IP commercialization rights, cloud/infra sponsorship visibility. |
+| **🤝 General Collaborators** | Community managers, open-source developers, event organizers. | Global ecosystem leadership, co-creating in a pioneer human-AI meta-venture studio. |
+
+### 📝 Registration & Contact
+- 📋 **Google Form Registration**: Managed directly by **Dr. Sanjay Chitnis** via Google Form account (`sanjay.chitnis@gmail.com`).
+- 📧 **Direct Contact Email**: [sanjay.chitnis@gmail.com](mailto:sanjay.chitnis@gmail.com)
+
+---
+
 ## 🔗 Quick Reference Links
 
 - 🌐 **Live Web Portal**: [https://sanchitnis.github.io/prodigy/](https://sanchitnis.github.io/prodigy/)
 - 📄 [Executive Concept Note](docs/conceptnote.md)
 - 🎯 [Strategy & Global Learnings Matrix](strategy/strategy_and_learnings.md)
 - ⚡ [Meta-Venture Execution Plan](planning/meta_venture_plan.md)
+- 📋 [Project 0 Task Board](planning/task_board.md)
+- 📝 [Daily Standups Log](planning/standups_and_contributions.md)
 - 🧠 [Ramesh Raskar Spot-Probe Strategy](wiki/spot_probe_strategy.md)
 - 📝 [Agent Suggestion Log](logs/agent_suggestions.md)
 - 📌 [Srujana Pathway Reference](references/srujana-pathway.md)
