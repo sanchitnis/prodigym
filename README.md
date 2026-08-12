@@ -88,4 +88,5 @@ prodigy/
 - ⚡ [Meta-Venture Execution Plan](planning/meta_venture_plan.md)
 - 🧠 [Ramesh Raskar Spot-Probe Strategy](wiki/spot_probe_strategy.md)
 - 📝 [Agent Suggestion Log](logs/agent_suggestions.md)
+- 📌 [Srujana Pathway Reference](references/srujana-pathway.md)
 - 🧰 [Venture Development Skill](.agents/skills/venture-development-frameworks/SKILL.md)
