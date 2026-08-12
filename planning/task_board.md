@@ -30,7 +30,7 @@
 ### 🔄 In Progress (Active Execution)
 
 - [ ] `[TASK-006]` Conduct multi-AI strategic feedback loops using Claude 3.5 Sonnet & GPT-4o prompt templates ([strategy/strategy_and_learnings.md](../strategy/strategy_and_learnings.md)).
-- [ ] `[TASK-007]` Expand Collaborator Learning Engine with Gemini Prompt Playbooks ([notebooks/gemini_prompt_playbook.md](../notebooks/gemini_prompt_playbook.md)).
+- [ ] `[TASK-007]` Expand Collaborator Learning Engine with AI Prompt Playbooks ([notebooks/prompt_playbook.md](../notebooks/prompt_playbook.md)).
 - [ ] `[TASK-008]` Build dynamic JavaScript data rendering for `data/projects.json` and `data/leaderboard.json` on `index.html`.
 
 ---

@@ -68,7 +68,7 @@ This workspace utilizes **Agentic Graph Engineering** across four interconnected
 
 1. 🎯 **Strategy & Global Learnings Engine** ([strategy/strategy_and_learnings.md](strategy/strategy_and_learnings.md)): Comparative synthesis of **Learnings From** 12 premier global models (iSPIRT DPI, École 42, Minerva, Apple CBL, Aalborg PBL, MIT Media Lab/REDX, Y Combinator, Amul, Google X, Entrepreneur First, Pioneer, Stanford d.school) and multi-AI prompt templates for Claude 3.5 & GPT-4o.
 2. ⚡ **Meta-Venture Plan & Resource Procurement** ([planning/meta_venture_plan.md](planning/meta_venture_plan.md)): Master operational roadmap for "Project 0" (Branding, Web Portal, AI/Cloud Compute Credits from Google Cloud, OpenAI, AWS, Microsoft).
-3. 📚 **Collaborator Learning Engine** ([wiki/index.md](wiki/index.md), [wiki/spot_probe_strategy.md](wiki/spot_probe_strategy.md) & [notebooks/gemini_prompt_playbook.md](notebooks/gemini_prompt_playbook.md)): Project-level Obsidian Wiki and Gemini prompt playbooks for collaborators to learn venture studio building and prompt engineering.
+3. 📚 **Collaborator Learning Engine** ([wiki/index.md](wiki/index.md), [wiki/spot_probe_strategy.md](wiki/spot_probe_strategy.md) & [notebooks/prompt_playbook.md](notebooks/prompt_playbook.md)): Project-level Obsidian Wiki and prompt playbooks for collaborators to learn venture studio building and prompt engineering.
 4. 🤝 **Mentor Network, Ecosystem & Leaderboard** ([data/](data/)): Dynamic showcase schemas for active projects, domain mentors, institutional hubs, and individual/institutional contribution leaderboards.
 5. 📝 **Multi-Agent Suggestion Logging Protocol** ([logs/agent_suggestions.md](logs/agent_suggestions.md)): Standardized log for Gemini, Claude, GPT-4o, and human leads to propose, review, and track meta-venture improvements.
 
@@ -137,7 +137,7 @@ prodigy/
 │   ├── index.md                       # Wiki index & learning module map
 │   └── spot_probe_strategy.md          # Ramesh Raskar Spot-Probe Framework reference
 ├── notebooks/                         # AI Co-working & Prompt Playbooks
-│   └── gemini_prompt_playbook.md
+│   └── prompt_playbook.md
 ├── logs/                              # Multi-Agent Suggestion & Critique Logs
 │   └── agent_suggestions.md           # Agent suggestion log for human review
 └── data/                              # Dynamic showcase JSON schemas (Database Foundation)

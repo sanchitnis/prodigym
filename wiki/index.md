@@ -73,6 +73,6 @@ wiki/
 
 ## 🔗 Related Resources & Tools
 - 🧰 Agent Skill Reference: [.agents/skills/venture-development-frameworks/SKILL.md](../.agents/skills/venture-development-frameworks/SKILL.md)
-- 🧪 Prompt Templates: [Gemini Prompt Playbook](../notebooks/gemini_prompt_playbook.md)
+- 🧪 Prompt Templates: [AI Prompt Playbook](../notebooks/prompt_playbook.md)
 - 🎯 Strategy Matrix: [Strategy & Benchmarking Engine](../strategy/strategy_and_benchmarking.md)
 - 📄 Foundational Concept: [Executive Concept Note](../docs/conceptnote.md)

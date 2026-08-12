@@ -15,52 +15,53 @@ As an AI agent collaborating in this meta-project, you do not just assist on ind
 
 ---
 
-## 📋 AI Model Review Checklists (For Human Prompters & Multi-Model Evaluation)
+## 📋 Role-Specific Agent Review Checklists (For Human Prompters & Agent Evaluation)
 
-In Project PRODIGY, the **human prompter** directs specific frontier AI models to review, critique, and enhance various aspects of the meta-venture. When invoking a specific AI model, use the following model-tailored review checklists:
+In Project PRODIGY, the **human prompter** directs specialized AI agent roles to review, critique, and enhance various aspects of the meta-venture. When invoking an agent for a specific task, apply the corresponding role-tailored review checklist:
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                              MULTI-AI REVIEW CHECKLISTS                                │
+│                              ROLE-SPECIFIC AGENT CHECKLISTS                            │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
-│ 🔹 ANTHROPIC CLAUDE ──► Strategic Synthesis, Rigor, Ethical Audit & Grant Quality      │
-│ 🟢 OPENAI GPT-4o    ──► Beneficiary Personas, Pitch Dynamics, JTBD & Market Fit       │
-│ 🔸 GEMINI SUBAGENTS ──► Codebase Architecture, JSON Schemas, Wiki & Graph Integrity    │
-│ 🔬 DOMAIN AI AGENTS ──► Technical Feasibility Spikes, Regulatory & Empirical Evals     │
+│ 🏛️ STRATEGIC SYNTHESIS & GOVERNANCE AGENT  ──► Synthesis, Rigor, Ethics & Grants       │
+│ 💡 USER PERSONA & MARKET VALIDATION AGENT ──► Personas, JTBD, Messaging & Viability   │
+│ ⚙️ CODEBASE, SCHEMA & GRAPH AGENT          ──► Architecture, Schemas & Link Integrity  │
+│ 🎓 PEDAGOGY & LEARNING ENGINE AGENT       ──► Srujana Pathway, PBL/CBL & 4 C Skills   │
+│ 🔬 DOMAIN TECHNICAL & REGULATORY AGENT    ──► Technical Spikes, Compliance & Evals    │
 └────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-### 🔹 1. ANTHROPIC CLAUDE REVIEW CHECKLIST
-*Focus: Strategic Synthesis, Rigor, Ethical Audit & Grant Quality*
+### 🏛️ 1. STRATEGIC SYNTHESIS & GOVERNANCE AGENT CHECKLIST
+*Focus: Strategic Synthesis, Model Alignment, Ethical Audit & Grant Quality*
 
-When invoking **Claude 3.5 Sonnet / Opus** to review strategy, concept notes, or grant proposals, prompt it to audit:
-- [ ] **Global Model Alignment**: Does the document synthesize the 12 global models (iSPIRT DPI, École 42, Minerva, YC, Amul, Google X) without internal contradictions?
-- [ ] **Monkey-First Bottleneck Audit**: Has the team identified the hardest technical/adoption bottleneck ("the Monkey") rather than building easy visual pedestals?
+When evaluating strategy, executive concept notes, or grant proposals, audit:
+- [ ] **Global Model Alignment**: Does the document synthesize the 12 global models (iSPIRT DPI, École 42, Minerva, YC, Amul, Google X, Apple CBL, Aalborg PBL, etc.) without internal contradictions?
+- [ ] **Monkey-First Bottleneck Audit**: Has the team identified the hardest technical or adoption bottleneck ("the Monkey") rather than building easy visual pedestals?
 - [ ] **Ethical & Equity Audit**: Are there unaddressed risks regarding algorithmic bias, data privacy, digital exclusion, or socio-economic equity for target beneficiaries?
 - [ ] **Grant & Governance Rigor**: Is the strategic narrative empirically grounded, clear, and compelling for university, foundation, or enterprise R&D grants?
 - [ ] **Double-Loop Learning**: Does the proposal encourage reflection on underlying assumptions rather than just single-loop execution?
 
 ---
 
-### 🟢 2. OPENAI GPT-4o REVIEW CHECKLIST
-*Focus: User Persona Simulation, Market Validation, GTM & Pitch Dynamics*
+### 💡 2. USER PERSONA & MARKET VALIDATION AGENT CHECKLIST
+*Focus: Beneficiary & Buyer Simulation, Market Validation, GTM & Pitch Dynamics*
 
-When invoking **OpenAI GPT-4o** to review pitch decks, market strategy, or beneficiary workflows, prompt it to audit:
+When evaluating value propositions, user workflows, or partnership proposals, audit:
 - [ ] **Beneficiary & Buyer Persona Simulation**: How would a rural health worker, smallholder farmer, municipal officer, or university dean react to this solution?
 - [ ] **Jobs-to-be-Done (JTBD) Fit**: Does the solution solve functional, emotional, and social jobs better than existing alternatives (paper logs, WhatsApp groups, spreadsheets)?
-- [ ] **Elevator Pitch & Messaging Punch**: Is the value proposition, messaging, and high-concept elevator pitch clear, crisp, and persuasive for VC/corporate partners?
+- [ ] **Messaging & Pitch Clarity**: Is the value proposition, messaging, and high-concept pitch clear, crisp, and persuasive for corporate, investor, or civic partners?
 - [ ] **Unit Economics & Financial Viability**: Is the path to self-sustaining revenue (enterprise SaaS, B2G licensing, consulting) realistic with clear cost-to-serve metrics?
-- [ ] **Competitive Differentiation**: What prevents an incumbent or traditional IT services company from copying this venture?
+- [ ] **Competitive Differentiation**: What prevents an incumbent or traditional IT services company from copying this solution?
 
 ---
 
-### 🔸 3. GEMINI SUBAGENTS REVIEW CHECKLIST
-*Focus: Codebase Architecture, Schema Compliance, Wiki Links & Graph Integrity*
+### ⚙️ 3. CODEBASE, SCHEMA & GRAPH ENGINEERING AGENT CHECKLIST
+*Focus: Directory Architecture, Schema Compliance, Wiki Links & Graph Integrity*
 
-When invoking **Gemini Subagents / Assistant** to manage workspace files, code, or data schemas, audit:
-- [ ] **Agentic Graph Structure**: Are artifacts organized within the correct functional directories (`docs/`, `strategy/`, `planning/`, `wiki/`, `notebooks/`, `logs/`, `data/`)?
+When managing workspace files, code, client assets, or data schemas, audit:
+- [ ] **Agentic Graph Structure**: Are artifacts organized within the correct functional directories (`docs/`, `strategy/`, `planning/`, `wiki/`, `notebooks/`, `logs/`, `data/`, `assets/`)?
 - [ ] **JSON Schema Integrity**: Do all entries in `data/projects.json`, `data/mentors.json`, `data/collaborators.json`, and `data/leaderboard.json` conform strictly to required JSON schemas?
 - [ ] **Relative Link Verification**: Are all markdown links relative GitHub-friendly links (e.g., `[Concept Note](docs/conceptnote.md)`) without broken URLs?
 - [ ] **Obsidian Wiki Cross-Linking**: Are concept notes in `wiki/` tagged with YAML frontmatter and cross-linked via `[[...]]` syntax?
@@ -68,13 +69,25 @@ When invoking **Gemini Subagents / Assistant** to manage workspace files, code, 
 
 ---
 
-### 🔬 4. DOMAIN-SPECIFIC AI AGENT REVIEW CHECKLIST
-*Focus: Technical Feasibility, Regulatory Compliance & Empirical Evals*
+### 🎓 4. PEDAGOGY, ANDRAGOGY & LEARNING ENGINE AGENT CHECKLIST
+*Focus: Srujana 4-Stage Pathway, Experiential PBL/CBL, 4 C Human Skills & Habits of Mind (HCAs)*
 
-When invoking **Domain-Specific AI Agents** (Agritech, Healthcare, Legal, Deep-Tech) to evaluate a probe:
-- [ ] **Technical Feasibility Spike**: Can the proposed AI model / edge hardware run reliably under target deployment constraints (offline-first, low bandwidth, low compute)?
+When designing learning modules, student challenges, or capstone frameworks, audit:
+- [ ] **Srujana Pathway Alignment**: Does the task map cleanly to Stage 1 (Foundational Skills), Stage 2 (Internships), Stage 3 (Product R&D & IP), or Stage 4 (Incubation)?
+- [ ] **Experiential PBL/CBL Design**: Is the learning structured around active problem-solving, real-world challenges, and sustained group inquiry rather than passive lecturing?
+- [ ] **4 C Human Skills Evaluation**: Does the rubric evaluate Critical Thinking, Communication, Collaboration, and Creativity alongside technical execution?
+- [ ] **Habits of Mind (HCAs) Integration**: Are Minerva-inspired foundational concepts and cognitive heuristics embedded into self-assessment tools?
+- [ ] **AI-Co-Working Rigor**: Do prompt templates train learners to use AI tools as strategic force-multipliers while auditing outputs for hallucination and academic integrity?
+
+---
+
+### 🔬 5. DOMAIN TECHNICAL & REGULATORY FEASIBILITY AGENT CHECKLIST
+*Focus: Technical Feasibility Spikes, Regulatory Compliance & Empirical Evals*
+
+When evaluating technical probes, software prototypes, or domain R&D solutions, audit:
+- [ ] **Technical Feasibility Spike**: Can the proposed software architecture or edge hardware run reliably under target deployment constraints (offline-first, low bandwidth, low compute)?
 - [ ] **Regulatory & Compliance Audit**: Does the proposal comply with local health data regulations (ABDM/HIPAA), agricultural data rights, or IP licensing laws?
-- [ ] **Empirical Benchmark & Evals**: Are explicit baseline datasets, accuracy metrics, and regression eval tests defined to measure probe maturity (SMI score)?
+- [ ] **Empirical Benchmark & Evals**: Are explicit baseline datasets, accuracy metrics, and regression eval tests defined to measure probe maturity (Solution Maturity Index / SMI score)?
 - [ ] **Safety & Human Safeguards**: Are Human-Expert-in-the-Loop (HEITL) safeguards enforced for critical decisions (medical diagnosis, financial grants, legal checks)?
 
 ---
@@ -91,8 +104,8 @@ When an agent or human generates a proposal, format the entry as follows:
 ```markdown
 ### [SUGGESTION-YYYY-MM-DD-XXX] Title of Proposal
 - **Timestamp**: YYYY-MM-DD THH:MM:SS
-- **Agent / Source Model**: [e.g., Gemini 3.6 Flash / Claude 3.5 Sonnet / GPT-4o]
-- **Target Workstream**: [Strategy & Benchmarking / Meta-Plan & Resources / Learning Wiki / Ecosystem & Leaderboard]
+- **Agent Role / Source**: [e.g., Strategic Synthesis Agent / Pedagogy Agent / Codebase Engineering Agent]
+- **Target Workstream**: [Strategy & Learnings / Meta-Plan & Resources / Learning Wiki / Ecosystem & Leaderboard]
 - **Target File(s)**: [e.g., docs/conceptnote.md, strategy/strategy_and_learnings.md]
 - **Status**: [PENDING_HUMAN_REVIEW | APPROVED | IN_PROGRESS | IMPLEMENTED | REJECTED]
 
@@ -124,9 +137,10 @@ prodigy/
 │   └── images/
 │       └── prodigy-logo.svg           # Vector brand assets & diagrams
 ├── docs/                              # Vision & foundational concept documentation
-│   └── conceptnote.md                 # Executive Concept Note
+│   ├── conceptnote.md                 # Executive Concept Note
+│   └── getting_started_guide.md       # Onboarding guide for Core Contributors & Users
 ├── strategy/                          # Strategy & Global Learnings Engine
-│   └── strategy_and_learnings.md      # Learnings from 12 global models & multi-AI prompts
+│   └── strategy_and_learnings.md      # Learnings from 12 global models & multi-agent prompt protocols
 ├── planning/                          # Operational Tracking & Resource Procurement Engine
 │   ├── meta_venture_plan.md           # Project 0 operational master plan & cloud credits roadmap
 │   ├── task_board.md                  # Project 0 Kanban task board (Backlog, Active, Review, Done)
@@ -135,7 +149,7 @@ prodigy/
 │   ├── index.md                       # Wiki index & learning module map
 │   └── spot_probe_strategy.md          # Ramesh Raskar Spot-Probe Framework reference
 ├── notebooks/                         # AI Co-working & Prompt Playbooks
-│   └── gemini_prompt_playbook.md
+│   └── prompt_playbook.md             # Curated prompt playbooks for human-AI co-working
 ├── logs/                              # Multi-Agent Suggestion & Critique Logs
 │   └── agent_suggestions.md           # Agent suggestion log for human review
 └── data/                              # Dynamic showcase JSON schemas (Backend Database Foundation)
@@ -146,7 +160,7 @@ prodigy/
 ```
 
 ### File Naming & Linking Rules
-1. **Naming**: Use lowercase `snake_case` or `kebab-case` for markdown files (e.g., `meta_venture_plan.md`, `gemini_prompt_playbook.md`). Use standard ISO dates `YYYY-MM-DD` for log entries.
+1. **Naming**: Use lowercase `snake_case` or `kebab-case` for markdown files (e.g., `meta_venture_plan.md`, `prompt_playbook.md`). Use standard ISO dates `YYYY-MM-DD` for log entries.
 2. **Relative Linking**: **ALL links in repository documentation MUST be GitHub-friendly relative links** pointing to files within the repository (e.g., `[Concept Note](docs/conceptnote.md)`).
 3. **No Direct Pushes during Sprints**: Agents should NOT automatically push commits after every minor edit. Git commits are kept local or prepared for end-of-day human push.
 
@@ -161,7 +175,7 @@ prodigy/
 │ GRAPH 1: STRATEGY & GLOBAL LEARNINGS ENGINE                                           │
 │ • Maintained in `strategy/strategy_and_learnings.md`.                                  │
 │ • Synthesize learnings from 12 models (iSPIRT DPI, École 42, Minerva, YC, Amul, etc.).│
-│ • Multi-AI feedback prompts for Claude 3.5 & GPT-4o.                                   │
+│ • Multi-agent strategic critique & evaluation prompts.                                 │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
 │ GRAPH 2: META-VENTURE ROADMAP, BRANDING & RESOURCES (PROJECT 0)                        │
 │ • Maintained in `planning/meta_venture_plan.md`.                                       │
@@ -169,7 +183,7 @@ prodigy/
 ├────────────────────────────────────────────────────────────────────────────────────────┤
 │ GRAPH 3: COLLABORATOR LEARNING ENGINE                                                  │
 │ • Maintained in `wiki/index.md` & `wiki/spot_probe_strategy.md`.                      │
-│ • Project Obsidian Wiki & Gemini prompt playbooks (`notebooks/`).                      │
+│ • Project Obsidian Wiki & Prompt Playbooks (`notebooks/`).                             │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
 │ GRAPH 4: ECOSYSTEM, MENTORS & LEADERBOARD SYSTEM                                       │
 │ • Maintained in `data/` (`projects.json`, `mentors.json`, `leaderboard.json`).         │

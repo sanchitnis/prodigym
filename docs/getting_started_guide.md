@@ -32,7 +32,7 @@ If you are a Community User, Student, Faculty Lead, Startup Founder, Mentor, or 
 3. **Hatch or Join a Probe**:
    - Create your own downstream project repository on GitHub (or join an existing team).
    - Point your external repo URL back to PRODIGY's showcase registry by submitting an issue or pull request updating `data/projects.json`.
-   - Learn via the [Obsidian Wiki](../wiki/index.md) and [Gemini Prompt Playbook](../notebooks/gemini_prompt_playbook.md).
+   - Learn via the [Obsidian Wiki](../wiki/index.md) and [AI Prompt Playbook](../notebooks/prompt_playbook.md).
 
 ### 👨‍🏫 2. Mentors & HEITL Jury Members
 1. **Register**: Complete the [Google Form Registration](https://docs.google.com/forms/d/e/1FAIpQLScPRODIGYEcosystemRegistration/viewform) selecting *Mentor / HEITL Expert*.
