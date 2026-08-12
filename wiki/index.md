@@ -11,6 +11,14 @@ wiki/
 ├── index.md                                 # Wiki main index (this file)
 ├── spot_probe_strategy.md                   # Ramesh Raskar Spot-Probe Framework reference
 │
+├── 🎓 learning_pedagogies/                   # Phase 0: Experimental Pedagogies & Andragogies
+│   ├── ecole_42_peer_learning.md            # École 42 Model (Teacherless, Gamified & Piscine)
+│   ├── minerva_project_hcas.md              # Minerva Project (Active Seminars & HCAs)
+│   ├── challenge_based_learning.md          # Apple Challenge-Based Learning (CBL)
+│   ├── aalborg_bie_pbl.md                   # Aalborg & Gold Standard Project-Based Learning
+│   ├── knowles_andragogy_heutagogy.md       # Knowles' Andragogy & Self-Determined Heutagogy
+│   └── kolb_experiential_learning.md        # Kolb's Experiential Learning Cycle
+│
 ├── 🎯 opportunity_discovery/                 # Phase 1: Opportunity Discovery & Deep-Tech
 │   ├── spot_probe_framework.md              # Ramesh Raskar's SPOT-PROBE Engine (MIT REDX)
 │   └── google_x_moonshot.md                 # Google X Moonshot & Monkey-First Principle
@@ -28,6 +36,17 @@ wiki/
     ├── disciplined_entrepreneurship.md      # Bill Aulet's MIT 24-Step Framework
     └── stage_gate_system.md                 # Robert G. Cooper Stage-Gate System
 ```
+
+---
+
+## 🧠 Experimental Pedagogies & Andragogies Map
+
+- [[learning_pedagogies/ecole_42_peer_learning|École 42 Model]]: Teacherless, peer-to-peer evaluation economy, gamified skill tree, and the 4-week Piscine bootcamp.
+- [[learning_pedagogies/minerva_project_hcas|Minerva Project]]: 100% Active Learning Seminars, 4 Core Competencies (4 Cs), and 100+ Habits of Mind and Foundational Concepts (HCAs).
+- [[learning_pedagogies/challenge_based_learning|Apple Challenge-Based Learning (CBL)]]: Big Idea $\rightarrow$ Essential Question $\rightarrow$ Challenge $\rightarrow$ Guiding Questions $\rightarrow$ Real-world Solution & Public Publishing.
+- [[learning_pedagogies/aalborg_bie_pbl|Aalborg & Gold Standard Project-Based Learning]]: Problem-oriented, project-organized interdisciplinary group R&D, sustained inquiry, and public product.
+- [[learning_pedagogies/knowles_andragogy_heutagogy|Knowles' Andragogy & Heutagogy]]: Adult self-concept, problem-centered motivation, double-loop learning, and capability development.
+- [[learning_pedagogies/kolb_experiential_learning|Kolb's Experiential Learning Cycle]]: Concrete Experience $\rightarrow$ Reflective Observation $\rightarrow$ Abstract Conceptualization $\rightarrow$ Active Experimentation in AI co-working.
 
 ---
 
