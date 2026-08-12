@@ -1,0 +1,18 @@
+[
+  {
+    "id": "mentor-001",
+    "name": "Prof. Ramesh Raskar (Hon. Strategic Advisor)",
+    "role": "MIT Media Lab / REDX Founder",
+    "expertise": "Spot-Probe Framework, Anti-disciplinary R&D, Computational Imaging",
+    "affiliation": "MIT Media Lab",
+    "status": "Target / Nominated Advisor"
+  },
+  {
+    "id": "mentor-002",
+    "name": "Project PRODIGY Mentor Network",
+    "role": "Domain Experts & Senior AI Researchers",
+    "expertise": "Agentic Graph Systems, Deep-Tech Scaling, Social Impact Business Models",
+    "affiliation": "PRODIGY Core Network",
+    "status": "Active"
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "individual_leaderboard": [
+    {
+      "rank": 1,
+      "name": "Contributor Lead Alpha",
+      "institution": "Institute of Technology Hub 1",
+      "points": 1250,
+      "badge": "HEITL Master Developer",
+      "probes_completed": 4,
+      "4c_rating": "Critical Thinking & Collaboration (9.8/10)"
+    },
+    {
+      "rank": 2,
+      "name": "Student Researcher Beta",
+      "institution": "Global Youth STEAM Network",
+      "points": 980,
+      "badge": "Spot-Probe Specialist",
+      "probes_completed": 3,
+      "4c_rating": "Creativity & Communication (9.5/10)"
+    }
+  ],
+  "institutional_leaderboard": [
+    {
+      "rank": 1,
+      "institution": "Institute of Technology Hub 1",
+      "active_students": 45,
+      "completed_probes": 12,
+      "cumulative_points": 5400,
+      "status": "Premier Academic Hub"
+    },
+    {
+      "rank": 2,
+      "institution": "Global Youth STEAM Network",
+      "active_students": 30,
+      "completed_probes": 8,
+      "cumulative_points": 3800,
+      "status": "Partner Community Hub"
+    }
+  ]
+}

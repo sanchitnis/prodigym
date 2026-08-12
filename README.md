@@ -1,47 +1,32 @@
-# PROJECT PRODIGY: Pipeline for Research Oriented Development with Intelligence of Global Youth
+# PROJECT PRODIGY: Human-AI Collaboration Meta-Venture
 
 > **WHAT:** **P**ipeline for **R**esearch **O**riented **D**evelopment with **I**ntelligence of **G**lobal **Y**outh  
-> **HOW:** *Building Our Common Future through Human + Augmented Intelligence — A Collaborative Community based Venture Studio for Multi-Tiered Human Centric Development in the AGI Era*  
+> **HOW:** *Building Our Common Future through Human + Augmented Intelligence — A Collaborative Meta-Venture Studio powered by Agentic Graph Engineering*  
 > **RESULTING IN (STRATEGIC TRIAD):**  
 > $$\mathbf{TALENT} \;\;\bullet\;\; \mathbf{ECOSYSTEM} \;\;\bullet\;\; \mathbf{VENTURES}$$
 
 ---
 
-## 🌟 Executive Overview
+## 🌟 Executive Overview: PRODIGY as a Meta-Venture
 
-**PROJECT PRODIGY** is a global collaborative community venture studio designed to address the foundational shifts brought about by Artificial General Intelligence (AGI) and Super-AI. 
+**PROJECT PRODIGY** is a global collaborative human-AI meta-venture studio designed to address the foundational shifts brought about by Artificial General Intelligence (AGI) and Super-AI. 
 
-As routine task execution and conventional coding roles are automated, traditional education and IT service pathways face an unprecedented structural crisis. PRODIGY equips global youth to become **Human-Experts-in-the-Loop (HEITL)**—mastering human-centric capabilities (**Critical Thinking, Communication, Collaboration, Creativity** — the 4 Cs, personal agency, self-regulation, and continuous learning) while building real-world software, research IP, and high-impact commercial ventures.
+Unlike traditional incubators or single software projects, **PRODIGY is a Meta-Venture**—an AI-augmented operational engine that coordinates students, senior mentors, and autonomous AI agents to continuously hatch, de-risk, and scale high-impact social and technical ventures.
 
 ---
 
-## 📐 Strategic Architecture: The Triad
+## 🕸️ Agentic Graph Engineering: 4 Top-Level Workstreams
 
-PRODIGY operates across three interconnected pillars:
+This workspace utilizes **Agentic Graph Engineering** across four interconnected workstreams:
 
-```
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                                 THE STRATEGIC TRIAD                                    │
-├────────────────────────────────────────────────────────────────────────────────────────┤
-│  1. TALENT PIPELINE                                                                    │
-│     Transforming youth from passive learners to Human-Experts-in-the-Loop (HEITL)       │
-│     mastering the 4 Cs, self-regulation, and AI co-working through outcome-based R&D.  │
-├────────────────────────────────────────────────────────────────────────────────────────┤
-│  2. COLLABORATING ECOSYSTEM                                                            │
-│     Operating on a Co-opetition Model: Cooperating on shared pre-competitive R&D &      │
-│     compute infrastructure; competing downstream on high-performance execution.       │
-├────────────────────────────────────────────────────────────────────────────────────────┤
-│  3. VENTURES HATCHING                                                                  │
-│     Incubating Stage 3/4 engineering outputs into commercial software, corporate IP,    │
-│     enterprise consulting deliverables, and scalable startups.                         │
-└────────────────────────────────────────────────────────────────────────────────────────┘
-```
+1. 🎯 **Strategy & Benchmarking Engine** ([strategy_and_benchmarking.md](strategy_and_benchmarking.md)): Comparative synthesis against 7 global models (MIT Media Lab/REDX, Y Combinator, Amul, Google X, Entrepreneur First, Pioneer, Stanford d.school) and multi-AI feedback prompt protocols for Claude 3.5 & GPT-4o.
+2. ⚡ **Meta-Venture Plan & Resource Procurement** ([meta_venture_plan.md](meta_venture_plan.md)): Master operational roadmap for "Project 0" (Branding, Web Portal, AI/Cloud Compute Credits from Google Cloud, OpenAI, AWS, Microsoft).
+3. 📚 **Collaborator Learning Engine** ([wiki/index.md](wiki/index.md) & [notebooks/gemini_prompt_playbook.md](notebooks/gemini_prompt_playbook.md)): Project-level Obsidian Wiki and Gemini prompt playbooks for collaborators to learn venture studio building and prompt engineering.
+4. 🤝 **Mentor Network, Ecosystem & Leaderboard** ([data/](data/)): Dynamic showcase schemas for active projects, domain mentors, institutional hubs, and individual/institutional contribution leaderboards.
 
 ---
 
 ## 🚀 The Srujana 4-Stage Pathway
-
-Contributors move through a transparent, outcome-driven progression model:
 
 | Stage | Name | Key Objective & Activities | Success Metric |
 | :--- | :--- | :--- | :--- |
@@ -53,24 +38,14 @@ Contributors move through a transparent, outcome-driven progression model:
 
 ---
 
-## 💡 The Innovation Engine: Ramesh Raskar's Spot-Probe Model
+## 🏆 Contribution Leaderboard & Showcase
 
-PRODIGY leverages Professor Ramesh Raskar's (MIT Media Lab) **Spot-Probe Framework**:
-1. **Spotting**: Identifying systemic friction points in higher education, industry workflows, and civic infrastructure.
-2. **Probing**: Running rapid 1–2 week AI-augmented micro-sprints to build working prototypes.
-3. **Pivoting / Validating**: Evaluating probes via automated rubrics, peer reviews, and Human-Expert-in-the-Loop (HEITL) panels.
-4. **Scaling**: Spin-off incubation into market-ready ventures.
+PRODIGY tracks individual student contributions (4 C skills, probe velocity, micro-challenge points) and institutional hub performance.
 
----
-
-## 🤝 How to Contribute
-
-Whether you are a student, researcher, industry veteran, domain expert, or investor, there is a clear place for you in PRODIGY:
-
-- 🎓 **Student Researchers & Developers**: Join Stage -1/1 micro-challenges, collaborate on open R&D, build your verified HEITL portfolio.
-- 🧙‍♂️ **Mentors & HEITL Jury Experts**: Guide student teams, evaluate Stage 3 solution maturity, provide domain expertise.
-- 🏢 **Industry & Enterprise Partners**: Sponsor real-world problem spots, license validated R&D modules, hire top-tier HEITL talent.
-- 🚀 **Venture Advisors & Investors**: Provide seed capital, mentor Stage 4 startup spin-offs, help commercialize high-impact IP.
+- 📊 [Active Projects Schema](data/projects.json)
+- 🧙‍♂️ [Mentor Network Schema](data/mentors.json)
+- 🏛️ [Collaborating Institutions Schema](data/collaborators.json)
+- 🏆 [Individual & Institutional Leaderboard Schema](data/leaderboard.json)
 
 ---
 
@@ -78,27 +53,31 @@ Whether you are a student, researcher, industry veteran, domain expert, or inves
 
 ```
 prodigy/
-├── conceptnote.md            # Comprehensive Executive Concept Note
-├── spot_probe_strategy.md     # Dedicated Ramesh Raskar Spot-Probe Framework
-├── AGENTS.md                 # System instructions & domain guidelines for AI subagents
-├── README.md                 # Contributor guide and project overview (this file)
-├── index.html                # GitHub Pages Web Landing Portal
-└── style.css                 # Custom design tokens & dynamic styles for web portal
+├── AGENTS.md                          # Meta-Venture Agentic Graph Engineering guidelines
+├── conceptnote.md                      # Overarching Executive Concept Note
+├── strategy_and_benchmarking.md        # Global benchmark matrix & multi-AI feedback prompts
+├── meta_venture_plan.md                # Project 0 operational master plan & cloud credits roadmap
+├── spot_probe_strategy.md               # Ramesh Raskar Spot-Probe Framework reference
+├── wiki/                              # Project-level Obsidian Wiki knowledge base
+│   └── index.md
+├── notebooks/                         # Gemini Prompt Playbook & AI co-working templates
+│   └── gemini_prompt_playbook.md
+├── data/                              # Dynamic showcase JSON schemas
+│   ├── projects.json
+│   ├── mentors.json
+│   ├── collaborators.json
+│   └── leaderboard.json
+├── index.html                         # GitHub Pages Web Landing Portal
+├── style.css                          # Custom design tokens & dynamic styles
+└── README.md                          # Meta-venture overview (this file)
 ```
 
 ---
 
-## 🔗 Key Documentation Links
+## 🔗 Quick Reference Links
 
-- 📄 [Executive Concept Note](conceptnote.md) — Complete vision, rationale, and operational blueprint.
-- 🎯 [Spot-Probe Strategy Framework](spot_probe_strategy.md) — Detailed innovation methodology.
-- 🤖 [Agent Guidelines (AGENTS.md)](AGENTS.md) — Operational instructions for AI subagents building social impact ventures.
-- 🌐 [Web Portal](https://sanchitnis.github.io/prodigy/) — Interactive web interface hosted on GitHub Pages.
-
----
-
-## 📜 Governance & License
-
-Project PRODIGY is dedicated to open-source collaboration, human-centric AI development, and equitable talent empowerment.
-
-*Copyright © 2026 Project PRODIGY Community.*
+- 🌐 **Live Web Portal**: [https://sanchitnis.github.io/prodigy/](https://sanchitnis.github.io/prodigy/)
+- 📄 [Executive Concept Note](conceptnote.md)
+- 🎯 [Strategy & Benchmarking Matrix](strategy_and_benchmarking.md)
+- ⚡ [Meta-Venture Execution Plan](meta_venture_plan.md)
+- 🧰 [Venture Development Skill](.agents/skills/venture-development-frameworks/SKILL.md)
