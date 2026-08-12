@@ -15,6 +15,16 @@ Unlike traditional incubators or single software projects, **PRODIGY is a Meta-V
 
 ---
 
+## ⚡ Project 0: Incubating, Deploying & Scaling PRODIGY
+
+The foundational project within this workspace is **Project 0**—the active effort to develop, resource, deploy, and scale **PRODIGY itself** as a global Meta-Venture Studio:
+
+- 📋 **Project 0 Task Board**: [planning/task_board.md](planning/task_board.md) — Kanban board tracking backlog, active sprints, HEITL reviews, and completed milestones.
+- 📝 **Daily Standups & Contributions**: [planning/standups_and_contributions.md](planning/standups_and_contributions.md) — Continuous daily progress log for human leads, student researchers, and AI subagents.
+- ⚡ **Operational Master Plan**: [planning/meta_venture_plan.md](planning/meta_venture_plan.md) — 4-phase execution roadmap & AI compute credit grant strategy.
+
+---
+
 ## 🕸️ Agentic Graph Engineering: 4 Top-Level Workstreams
 
 This workspace utilizes **Agentic Graph Engineering** across four interconnected workstreams:

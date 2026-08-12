@@ -122,7 +122,9 @@ prodigy/
 ├── strategy/                          # Strategy & Global Learnings Engine
 │   └── strategy_and_learnings.md      # Learnings from 12 global models & multi-AI prompts
 ├── planning/                          # Operational Tracking & Resource Procurement Engine
-│   └── meta_venture_plan.md           # Project 0 operational master plan & cloud credits roadmap
+│   ├── meta_venture_plan.md           # Project 0 operational master plan & cloud credits roadmap
+│   ├── task_board.md                  # Project 0 Kanban task board (Backlog, Active, Review, Done)
+│   └── standups_and_contributions.md  # Daily standup log & contribution journal (Humans & AI Agents)
 ├── wiki/                              # Project-level Obsidian Wiki knowledge base
 │   ├── index.md                       # Wiki index & learning module map
 │   └── spot_probe_strategy.md          # Ramesh Raskar Spot-Probe Framework reference

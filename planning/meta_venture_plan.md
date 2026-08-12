@@ -1,6 +1,9 @@
 # META-VENTURE OPERATIONAL PLAN: PROJECT 0
 
-> **Project 0 Directive**: Developing, branding, resourcing, and deploying **Project PRODIGY** itself as an AI-augmented Meta-Venture Studio.
+> **Project 0 Directive**: Developing, branding, resourcing, deploying, and scaling **Project PRODIGY** itself as an AI-augmented Meta-Venture Studio.
+> 
+> 📋 **Project 0 Task Board**: [planning/task_board.md](task_board.md)  
+> 📝 **Daily Standups & Contributions**: [planning/standups_and_contributions.md](standups_and_contributions.md)
 
 ---
 
