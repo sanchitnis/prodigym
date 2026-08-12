@@ -26,6 +26,32 @@ Unlike traditional incubators or single software projects, **PRODIGY is a Meta-V
 
 ---
 
+## 👥 Contributor & User Model: Two Distinct Roles
+
+In Project PRODIGY, we clearly distinguish between two operational contributor groups:
+
+```
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│                              PRODIGY CONTRIBUTOR ARCHITECTURE                          │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│ 1. CORE CONTRIBUTORS (Project 0 — Meta-Venture Studio Engineering)                      │
+│    • Target: AI Venture Orchestrators, Systems Architects, Core Devs, & AI Subagents.  │
+│    • Primary Workspace: This GitHub Repository (`README.md`, `AGENTS.md`, `planning/`).│
+│    • Objective: Build, deploy, resource, and scale PRODIGY itself as a Meta-Studio.    │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│ 2. USERS & SECONDARY CONTRIBUTORS (Downstream Venture Builders & Stakeholders)         │
+│    • Target: Students, Faculty, Founders, Mentors, Industry Partners, & Support Experts.│
+│    • Primary Workspace: Public Web Portal (`index.html`) & Downstream Project Repos.   │
+│    • Objective: Hatch downstream project probes, learn via Srujana Pathway, submit      │
+│                 artifacts, point to external repos, and register via Google Form.       │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+```
+
+- **For Core Meta-Venture Contributors**: This repository and its markdown documentation (`AGENTS.md`, `planning/task_board.md`, `planning/standups_and_contributions.md`) provide the operational engineering engine to build and scale PRODIGY (Project 0).
+- **For Community Users & Stakeholders**: The public [PRODIGY Web Portal](https://sanchitnis.github.io/prodigy/) is the primary interface for users to discover ventures, join or hatch downstream projects, access learning modules, register via Google Form, and share community artifacts.
+
+---
+
 ## ⚡ Project 0: Incubating, Deploying & Scaling PRODIGY
 
 The foundational project within this workspace is **Project 0**—the active effort to develop, resource, deploy, and scale **PRODIGY itself** as a global Meta-Venture Studio:

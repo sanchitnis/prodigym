@@ -57,17 +57,17 @@ Prevents clutter in workspace root, aligns with Obsidian Wiki conventions (`wiki
 - **Agent / Source Model**: Gemini 3.6 Flash (Antigravity Assistant)
 - **Target Workstream**: Collaborator Onboarding & Web UX Engine
 - **Target File(s)**: [index.html](../index.html), [assets/js/main.js](../assets/js/main.js), [docs/getting_started_guide.md](../docs/getting_started_guide.md), [wiki/index.md](../wiki/index.md)
-- **Status**: PENDING_HUMAN_REVIEW
+- **Status**: IMPLEMENTED (Approved & Executed)
 
 #### 1. Core Proposal
-Introduce persona-targeted interactive filters, a visual Spot-Probe venture hatching flowchart, a searchable wiki preview widget, and a concrete Getting Started guide (`docs/getting_started_guide.md`) to drastically lower onboarding friction for potential collaborators (students, faculty, mentors, institutional leads, investors).
+Introduce persona-targeted interactive filters, a visual Srujana 4-Stage Pathway timeline graphic, a searchable wiki preview widget, and a concrete Getting Started guide (`docs/getting_started_guide.md`) to drastically lower onboarding friction for potential collaborators (students, faculty, mentors, institutional leads, investors).
 
 #### 2. Rationale & Benchmark Alignment
 While the site and strategy documents are comprehensive, potential collaborators need immediate clarity on "What is my persona path?" and "How do I take my first action?". Synthesizing Minerva's HCA clarity and YC's straightforward application flow will maximize conversion from passive visitors to registered collaborators.
 
 #### 3. Action Items / Implementation Plan
-1. **Interactive Persona Filter Widget (`index.html` & `main.js`)**: Add tabs for *Students/Faculty*, *Mentors*, *Institutional Hubs*, *Support Experts*, and *Investors* that dynamically highlight personalized 3-step action plans.
-2. **Visual Spot-Probe Flowchart (`index.html`)**: Create an interactive graphic mapping Srujana Stage 1 (Micro-challenges) $\rightarrow$ Stage 2 (Working Probes) $\rightarrow$ Stage 3 (Deep Inquiry & SMI Eval) $\rightarrow$ Stage 4 (Startup Spin-off & Enterprise Placement).
-3. **Collaborator Getting Started Guide (`docs/getting_started_guide.md`)**: Create a step-by-step onboarding guide for human and AI contributors.
-4. **Searchable Wiki & Prompt Playbook Preview (`index.html` & `main.js`)**: Add a live search bar filtering Obsidian concept notes and Gemini prompt templates directly on the landing portal.
+1. **Interactive Persona Filter Widget (`index.html` & `main.js`)**: Add tabs for *Students/Faculty*, *Mentors*, *Institutional Hubs*, *Support Experts*, and *Investors* that dynamically highlight personalized 3-step action plans. [COMPLETED]
+2. **Srujana 4-Stage Pathway Timeline Graphic (`index.html` & `style.css`)**: Replaced flowchart with a clean visual timeline graphic for the Srujana Pathway as per `references/srujana-pathway.md`. [COMPLETED]
+3. **Collaborator Getting Started Guide (`docs/getting_started_guide.md`)**: Create a step-by-step onboarding guide for human and AI contributors. [COMPLETED]
+4. **Searchable Wiki & Prompt Playbook Preview (`index.html` & `main.js`)**: Add a live search bar filtering Obsidian concept notes and Gemini prompt templates directly on the landing portal. [COMPLETED]
 
