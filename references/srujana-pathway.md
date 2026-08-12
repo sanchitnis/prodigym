@@ -8,13 +8,13 @@ The **Srujana Pathway** outlines a comprehensive framework for mentoring student
 
 The Srujana Pathway is designed to be highly flexible, allowing students and faculty to complete one, two, three, or all four stages based on their individual interests, career aspirations, and capabilities.
 
-### 1. Curriculum, Clubs, and Self-Learning
+### 1. Developing foundational skills to become ready for real-life contributions (internships) through Curriculum, Clubs, and Self-Learning
 * **Focus**: Foundational Knowledge, Skills, and Attitude/Ability.
 * **Mechanism**: Delivered through an enhanced, flexible curriculum, active participation in club activities, and self-paced learning.
 * **Mentoring Approach**: Mentors guide learners in acquiring core technical competencies and developing the right academic mindset. Learning is self-directed but structured.
 
 ### 2. Internships
-* **Focus**: Practical Exposure and Real-World Application.
+* **Focus**: Learning through Practical Real-World Application.
 * **Mechanism**: Industry-mentored projects.
 * **Mentoring Approach**: Mentors connect learners with industry partners and guide them through applying academic theories to address practical business problems. Emphasis is placed on professional workflows and accountability.
 
@@ -23,7 +23,7 @@ The Srujana Pathway is designed to be highly flexible, allowing students and fac
 * **Mechanism**: Designing tangible products, providing consulting services, or conducting academic and applied research.
 * **Mentoring Approach**: Mentors work alongside participants as research advisors or project directors, driving the transition from passive learning to active creation, problem-solving, and intellectual property generation.
 
-### 4. Enterprising Students, AI Era Careers, and Startups
+### 4. Enterprise Incubation and Elite Career Placement
 * **Focus**: Commercialization, elite career placement, and enterprise creation.
 * **Mechanism**: Securing marquee AI-era careers, executing consulting contracts, or launching startup ventures.
 * **Mentoring Approach**: Mentors act as business advisors, incubator facilitators, and career strategists, steering high-capability participants toward institutional scale, investment readiness, or elite industry roles.

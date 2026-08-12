@@ -30,7 +30,7 @@ To build a world-class meta-venture, PRODIGY benchmarks its strategic architectu
 | Organization / Model | Core Mechanics | Key Strengths | Structural Gaps / Failure Vectors | How PRODIGY Synthesizes / Elevates |
 | :--- | :--- | :--- | :--- | :--- |
 | **MIT Media Lab / REDX** | Anti-disciplinary research, Spot-Probe micro-experiments, REDX spin-offs. | Rapid problem-solution probing; multi-disciplinary fusion. | Academic bottleneck; struggles with commercial venture scaling at mass scale. | Adopts **Spot-Probe Framework**; adds structured commercial Stage 4 hatching. |
-| **Y Combinator (YC)** | Batch incubation, standardized SAFEs, intense Demo Day focus. | Massive founder network; high investor velocity; standardized deal terms. | Requires pre-existing teams/ideas; minimal zero-barrier talent development. | Integrates Srujana Stage -2/0 to groom raw talent *before* team formation. |
+| **Y Combinator (YC)** | Batch incubation, standardized SAFEs, intense Demo Day focus. | Massive founder network; high investor velocity; standardized deal terms. | Requires pre-existing teams/ideas; minimal zero-barrier talent development. | Integrates **[Srujana Stage 1](../references/srujana-pathway.md)** (Foundational Skills & Readiness) to groom talent *before* team formation. |
 | **Amul Cooperative Model** | Pre-competitive resource pooling, grassroots producer ownership, shared infrastructure. | Massive socio-economic scale; equitable value distribution; trusted brand. | Slow to adopt frontier AI/tech; traditional agricultural focus. | Applies **Co-opetition Paradigm** to AI compute pooling & shared software R&D. |
 | **Google X Moonshot** | 3-part intersection (Huge problem, Radical solution, Breakthrough tech); Monkey-First principle. | Brutal de-risking of frontier tech; zero tolerance for low-hanging distractions. | High capital intensity; top-down corporate ownership; closed ecosystem. | Leverages **Monkey-First de-risking** within an open, community-driven R&D network. |
 | **Entrepreneur First (EF)** | Pre-team, pre-idea talent aggregation; founder matching based on edge. | Enables top individual talent to find co-founders & build from scratch. | High drop-out rates; localized to major tech hubs; expensive overhead. | Uses **Global Leaderboard & Online Micro-challenges** to match talent globally. |
@@ -48,9 +48,9 @@ PRODIGY combines the best elements of these models into a unified 4-pillar meta-
 2. **Brutal De-risking (Inspired by Google X & Spot-Probe)**:
    Using the *Monkey-First Principle*, teams tackle the hardest technical and adoption bottlenecks first during short 1–2 week micro-probe sprints.
 3. **Frictionless Talent Scouting (Inspired by Pioneer & EF)**:
-   Students enter through zero-barrier micro-challenges (Stage -2/-1), building a verified public portfolio of Human-Expert-in-the-Loop (HEITL) capability.
+   Students enter through Srujana Stage 1 (Foundational Skills & Readiness), building a verified public portfolio of Human-Expert-in-the-Loop (HEITL) capability.
 4. **Outcome-Driven Venture Hatching (Inspired by YC & MIT REDX)**:
-   Stage 3/4 projects transition into enterprise software contracts, corporate IP licensing, or independent VC-backed startups.
+   Srujana Stage 3 & 4 projects transition into enterprise software contracts, corporate IP licensing, or independent VC-backed startups (Enterprise Incubation & Elite Placement).
 
 ---
 

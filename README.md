@@ -27,15 +27,29 @@ This workspace utilizes **Agentic Graph Engineering** across four interconnected
 
 ---
 
-## 🚀 The Srujana 4-Stage Pathway
+## 🚀 The Srujana 4-Stage Pathway & Mentoring Philosophy
 
-| Stage | Name | Key Objective & Activities | Success Metric |
+The **Srujana Pathway** ([references/srujana-pathway.md](references/srujana-pathway.md)) outlines a comprehensive mentoring framework integrating academic learning, industry interaction, and entrepreneurial execution across four developmental stages:
+
+### 📍 The 4 Developmental Stages
+
+| Stage | Focus & Mechanism | Mentoring & Execution Approach | Primary Output / Metric |
 | :--- | :--- | :--- | :--- |
-| **Stage -2 / -1** | *Zero-Barrier Onboarding* | Open-access micro-challenges, fundamental AI tooling, peer learning. | Micro-challenge completion & leaderboard entry. |
-| **Stage 1** | *Foundation & Probe Execution* | Structured micro-experiments using Ramesh Raskar's **Spot-Probe Framework**. | Probe Velocity Index & 4 C skill assessment. |
-| **Stage 2** | *Collaborative R&D* | Cross-disciplinary team projects, pre-competitive compute pooling. | Peer-reviewed working prototype & SMI score. |
-| **Stage 3** | *Venture Validation & HEITL Review* | Enterprise-grade deployment, HEITL expert jury evaluation. | Solution Maturity Index (SMI) threshold met. |
-| **Stage 4** | *Commercial Launch & Hatching* | Startup spin-offs, corporate IP transfer, enterprise consulting. | Venture capitalization & revenue/impact yield. |
+| **Stage 1** | *Foundational Skills & Readiness* | Curriculum, student clubs, self-paced learning, and fundamental technical/AI capabilities. | Readiness for real-life contributions (internships) & micro-challenge points. |
+| **Stage 2** | *Practical Exposure & Internships* | Learning through practical real-world application via industry-mentored projects. | Professional workflow mastery & working probe prototypes. |
+| **Stage 3** | *Product R&D & Deep Inquiry* | Product/solution development, consulting deliverables, academic research, and IP creation. | Solution Maturity Index (SMI) threshold & peer/HEITL expert jury review. |
+| **Stage 4** | *Enterprise Incubation & Placement* | Commercialization, startup incubation, marquee AI-era careers, and consulting contracts. | Enterprise creation, venture capitalization, patents, & elite placement. |
+
+---
+
+### 🧠 The Underlying Mentoring Philosophy
+
+The pathway is underpinned by four core philosophy pillars:
+
+1. 🛠️ **Learn by Doing**: Experiential execution over passive lecturing; learning by building, testing, failing, and iterating with immediate mentor feedback.
+2. 🤖 **Augmented by AI**: Leveraging AI tools as strategic force-multipliers for research, code automation, and productivity while maintaining prompt rigor and integrity.
+3. 🤝 **With Human-Centric Skills**: Placing a premium on unique human capabilities—Critical Thinking, Ethics, Emotional Intelligence, Leadership, Collaboration, and Communication (the **4 Cs**).
+4. 🏆 **Resulting in AI-Era Outcomes**: Focusing on tangible impact: **AI Era Careers**, **Products/Portfolios** (functional code, published papers, patents), and **Branding** (credibility & recognition).
 
 ---
 
