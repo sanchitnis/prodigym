@@ -7,12 +7,13 @@
 ## 📚 Core Learning Modules
 
 ```
-prodigy-wiki/
-├── 01-foundations/       # Human + Augmented Intelligence & 4 C Skills
-├── 02-spot-probe/        # Ramesh Raskar Spot-Probe Engine & Brainswarming
-├── 03-ai-agentics/       # Multi-Agent Architecture & Prompt Engineering
-├── 04-venture-building/  # Lean Validation, Business Model Canvas, & SMI Rubrics
-└── 05-resources/         # Curated Web Resources, Papers & Video Lectures
+wiki/
+├── index.md                   # Wiki main index & module overview (this file)
+├── spot_probe_strategy.md     # Dedicated Ramesh Raskar Spot-Probe Framework
+├── 01-foundations/            # Human + Augmented Intelligence & 4 C Skills
+├── 02-ai-agentics/            # Multi-Agent Architecture & Prompt Engineering
+├── 03-venture-building/       # Lean Validation, Business Model Canvas, & SMI Rubrics
+└── 04-resources/              # Curated Web Resources, Papers & Video Lectures
 ```
 
 ---
@@ -25,6 +26,7 @@ prodigy-wiki/
 ---
 
 ### Module 2: Ramesh Raskar's Spot-Probe Engine
+- 📄 **Dedicated Strategy Document**: [Ramesh Raskar Spot-Probe Framework Reference](spot_probe_strategy.md)
 - **Spotting Friction**: Dissecting domain friction in healthcare, education, agriculture, and civic systems.
 - **Brainswarming vs. Brainstorming**: Graph-based problem decomposition.
 - **Time-Cost-Reach Plots**: Prioritizing micro-probe experiments.
@@ -35,12 +37,13 @@ prodigy-wiki/
 
 ### Module 3: AI Agentic Workflows & Prompt Engineering
 - **Agentic Design Patterns**: Reflection, Tool Use, Planning, and Multi-Agent Orchestration.
-- **Prompt Engineering Playbook**: Writing structured prompts for Gemini, Claude, and GPT-4o.
+- **Prompt Engineering Playbook**: [Gemini Prompt Playbook](../notebooks/gemini_prompt_playbook.md).
 - **Automated Benchmarking & Evals**: Setting up regression tests for AI output quality.
 
 ---
 
 ### Module 4: Venture Building & Scaling Frameworks
+- **Venture Frameworks Skill Reference**: [.agents/skills/venture-development-frameworks/SKILL.md](../.agents/skills/venture-development-frameworks/SKILL.md)
 - **Steve Blank's GOOTB**: Customer Discovery and interviewing techniques.
 - **Strategyzer BMC/VPC**: Mapping Value Propositions to Customer Pains & Gains.
 - **Clayton Christensen's JTBD**: Finding non-obvious customer motivations.

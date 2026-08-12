@@ -15,32 +15,114 @@ As an AI agent collaborating in this meta-project, you do not just assist on ind
 
 ---
 
-## 🕸️ Agentic Graph Engineering: 4 Top-Level Workstreams
+## 🤖 Multi-Agent Ecosystem: Specialized Agent Roles
 
-All agent operations in this repository are structured around four top-level task graphs designed to scale the PRODIGY Meta-Venture:
+Project PRODIGY leverages a multi-agent framework where distinct AI models and subagents collaborate with human leads to enhance the meta-venture:
+
+```
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│                                MULTI-AGENT COLLABORATION                               │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│ 🔹 GEMINI SUBAGENTS (Workspace & Execution Orchestrators)                              │
+│    • Codebase maintenance, Agentic Graph structure, file ops, schema updates.          │
+│ 🔹 ANTHROPIC CLAUDE (Strategy, Synthesis & Rigor Experts)                              │
+│    • Deep strategic critique, concept note stress-testing, grant proposals, ethics.    │
+│ 🔹 OPENAI GPT-4o (User Persona & Market Simulators)                                    │
+│    • Beneficiary/investor persona simulation, pitch deck reviews, market validation.   │
+│ 🔹 DOMAIN-SPECIFIC AI AGENTS (Agritech, Healthcare, Legal, Deep-Tech)                 │
+│    • Domain R&D evaluation, regulatory checks, technical eval benchmarking.           │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 📝 Agent Suggestion & Critique Logging Protocol
+
+To allow multiple AI agents and human leads to collaborate asynchronously without cluttering GitHub issues, all strategic suggestions, proposals, and critiques MUST be logged into:
+
+> 📄 **Agent Suggestion Log**: [logs/agent_suggestions.md](logs/agent_suggestions.md)
+
+### Entry Schema for Agent Logs
+When an agent or human generates a proposal, format the entry as follows:
+
+```markdown
+### [SUGGESTION-YYYY-MM-DD-XXX] Title of Proposal
+- **Timestamp**: YYYY-MM-DD THH:MM:SS
+- **Agent / Source Model**: [e.g., Gemini 3.6 Flash / Claude 3.5 Sonnet / GPT-4o]
+- **Target Workstream**: [Strategy & Benchmarking / Meta-Plan & Resources / Learning Wiki / Ecosystem & Leaderboard]
+- **Target File(s)**: [e.g., docs/conceptnote.md, strategy/strategy_and_benchmarking.md]
+- **Status**: [PENDING_HUMAN_REVIEW | APPROVED | IN_PROGRESS | IMPLEMENTED | REJECTED]
+
+#### 1. Core Proposal
+Brief, clear summary of the proposed enhancement or strategic pivot.
+
+#### 2. Rationale & Benchmark Alignment
+Why this change adds value to the PRODIGY Meta-Venture studio.
+
+#### 3. Action Items / Implementation Plan
+Concrete steps required to execute if approved by human leads.
+```
+
+---
+
+## 📁 Repository Directory Structure & Naming Conventions
+
+### Workspace Directory Layout
+```
+prodigy/
+├── AGENTS.md                          # Meta-Venture Agentic Graph Engineering guidelines (this file)
+├── README.md                          # Main contributor guide & repository index
+├── index.html                         # GitHub Pages Web Landing Portal
+├── style.css                          # Custom styles for portal
+├── docs/                              # Vision & foundational concept documentation
+│   └── conceptnote.md                 # Executive Concept Note
+├── strategy/                          # Strategy & Benchmarking Engine
+│   └── strategy_and_benchmarking.md   # Global benchmark matrix & multi-AI feedback prompts
+├── planning/                          # Operational Tracking & Resource Procurement Engine
+│   └── meta_venture_plan.md           # Project 0 operational master plan & cloud credits roadmap
+├── wiki/                              # Project-level Obsidian Wiki knowledge base
+│   ├── index.md                       # Wiki index & learning module map
+│   └── spot_probe_strategy.md          # Ramesh Raskar Spot-Probe Framework reference
+├── notebooks/                         # AI Co-working & Prompt Playbooks
+│   └── gemini_prompt_playbook.md
+├── logs/                              # Multi-Agent Suggestion & Critique Logs
+│   └── agent_suggestions.md           # Agent suggestion log for human review
+└── data/                              # Dynamic showcase JSON schemas
+    ├── projects.json
+    ├── mentors.json
+    ├── collaborators.json
+    └── leaderboard.json
+```
+
+### File Naming & Linking Rules
+1. **Naming**: Use lowercase `snake_case` or `kebab-case` for markdown files (e.g., `meta_venture_plan.md`, `gemini_prompt_playbook.md`). Use standard ISO dates `YYYY-MM-DD` for log entries.
+2. **Relative Linking**: **ALL links in repository documentation MUST be GitHub-friendly relative links** pointing to files within the repository (e.g., `[Concept Note](docs/conceptnote.md)`).
+3. **No Direct Pushes during Sprints**: Agents should NOT automatically push commits after every minor edit. Git commits are kept local or prepared for end-of-day human push.
+
+---
+
+## 🕸️ Agentic Graph Engineering: 4 Top-Level Workstreams
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
 │                        PRODIGY META-VENTURE AGENTIC GRAPH                              │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
 │ GRAPH 1: STRATEGY & BENCHMARKING ENGINE                                                │
+│ • Maintained in `strategy/strategy_and_benchmarking.md`.                               │
 │ • Benchmark PRODIGY against global models (MIT Media Lab, YC, Amul, Google X, etc.).  │
-│ • Structure prompt templates for multi-AI feedback (Claude, GPT-4o) & human experts.   │
-│ • Continuously refine the meta-strategy based on empirical feedback.                   │
+│ • Multi-AI feedback prompts for Claude 3.5 & GPT-4o.                                   │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
 │ GRAPH 2: META-VENTURE ROADMAP, BRANDING & RESOURCES (PROJECT 0)                        │
-│ • Build execution plans for PRODIGY branding, web portal, & digital assets.            │
-│ • Procure cloud/AI compute credits (Google Cloud for Startups, OpenAI Grants, AWS).    │
-│ • Maintain GitHub Pages portal & project management infrastructure.                   │
+│ • Maintained in `planning/meta_venture_plan.md`.                                       │
+│ • Execution plans for PRODIGY branding, web portal, & cloud/AI credits procurement.    │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
 │ GRAPH 3: COLLABORATOR LEARNING ENGINE                                                  │
-│ • Maintain the project-level Obsidian Wiki (`wiki/`) & Gemini Notebooks (`notebooks/`).│
-│ • Curate high-value learning materials, prompt playbooks, & venture scaling guides.    │
+│ • Maintained in `wiki/index.md` & `wiki/spot_probe_strategy.md`.                      │
+│ • Project Obsidian Wiki & Gemini prompt playbooks (`notebooks/`).                      │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
 │ GRAPH 4: ECOSYSTEM, MENTORS & LEADERBOARD SYSTEM                                       │
-│ • Recruit & onboard core team leads, domain mentors, & advisory board.                 │
-│ • Maintain dynamic schemas for projects, mentors, & collaborating institutions.       │
-│ • Drive individual & institutional contribution leaderboards.                          │
+│ • Maintained in `data/` (`projects.json`, `mentors.json`, `leaderboard.json`).         │
+│ • Drive individual & institutional contribution leaderboards on the web portal.        │
 └────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -50,17 +132,7 @@ All agent operations in this repository are structured around four top-level tas
 
 When evaluating the strategy, business model, pilot de-risking, or growth stage of PRODIGY or its downstream ventures, invoke and apply the specialized framework skill:
 
-> 🧰 **Agent Skill Reference**: [venture-development-frameworks](file:///.agents/skills/venture-development-frameworks/SKILL.md)
-
----
-
-## 🔄 Multi-AI & Expert Feedback Protocol
-
-To ensure world-class rigor, all strategic proposals, concept notes, and operational plans generated by agents in this workspace must be formatted for seamless cross-validation with other frontier AI systems (e.g., Anthropic Claude 3.5, OpenAI GPT-4o) and human advisory boards:
-
-1. **Structured Critique Prompts**: Include clear `<FEEDBACK_PROMPT>` blocks at the end of strategic proposals to facilitate evaluation by external models.
-2. **Empirical Benchmarking**: Compare every strategic decision against established global benchmarks (e.g., Y Combinator's batch model vs. Amul's cooperative R&D model).
-3. **Iterative Convergence**: Synthesize feedback from human experts and external AI systems into actionable revisions in `strategy_and_benchmarking.md` and `meta_venture_plan.md`.
+> 🧰 **Agent Skill Reference**: [venture-development-frameworks](.agents/skills/venture-development-frameworks/SKILL.md)
 
 ---
 
@@ -68,9 +140,10 @@ To ensure world-class rigor, all strategic proposals, concept notes, and operati
 
 1. **Focus on Meta-Venture Scaling**: Always ask: *"How does this artifact help build, validate, or scale PRODIGY as a platform for global youth?"*
 2. **Be Empirical & Concrete**: Avoid hollow marketing buzzwords. Use specific metrics, financial models, user workflows, and code structures.
-3. **Maintain Schema Integrity**: Ensure all entries added to `data/projects.json`, `data/mentors.json`, `data/collaborators.json`, and `data/leaderboard.json` adhere to strict JSON schema definitions.
-4. **Preserve Context & Linkage**: Always reference relevant project documents:
-   - [conceptnote.md](conceptnote.md) — Overarching vision.
-   - [strategy_and_benchmarking.md](strategy_and_benchmarking.md) — Benchmark research & strategy.
-   - [meta_venture_plan.md](meta_venture_plan.md) — Operational execution plan.
-   - [README.md](README.md) — Contributor onboarding guide.
+3. **Log Suggestions Formally**: Log all structural or strategic proposals in `logs/agent_suggestions.md` for human review.
+4. **Preserve Relative Linkage**: Always use relative markdown links pointing to repository files:
+   - [Executive Concept Note](docs/conceptnote.md)
+   - [Strategy & Benchmarking](strategy/strategy_and_benchmarking.md)
+   - [Meta-Venture Plan](planning/meta_venture_plan.md)
+   - [Spot-Probe Strategy](wiki/spot_probe_strategy.md)
+   - [Contributor README](README.md)
