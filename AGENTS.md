@@ -116,7 +116,13 @@ prodigy/
 ├── AGENTS.md                          # Meta-Venture Agentic Graph Engineering guidelines (this file)
 ├── README.md                          # Main contributor guide & repository index
 ├── index.html                         # GitHub Pages Web Landing Portal
-├── style.css                          # Custom styles for portal
+├── assets/                            # Scalable Web App Assets Directory
+│   ├── css/
+│   │   └── style.css                  # Custom design system & glassmorphism styles
+│   ├── js/
+│   │   └── main.js                    # Dynamic JSON schema loader & interactive client logic
+│   └── images/
+│       └── prodigy-logo.svg           # Vector brand assets & diagrams
 ├── docs/                              # Vision & foundational concept documentation
 │   └── conceptnote.md                 # Executive Concept Note
 ├── strategy/                          # Strategy & Global Learnings Engine
@@ -132,7 +138,7 @@ prodigy/
 │   └── gemini_prompt_playbook.md
 ├── logs/                              # Multi-Agent Suggestion & Critique Logs
 │   └── agent_suggestions.md           # Agent suggestion log for human review
-└── data/                              # Dynamic showcase JSON schemas
+└── data/                              # Dynamic showcase JSON schemas (Backend Database Foundation)
     ├── projects.json
     ├── mentors.json
     ├── collaborators.json

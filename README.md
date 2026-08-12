@@ -81,13 +81,21 @@ prodigy/
 ├── AGENTS.md                          # Meta-Venture Agentic Graph Engineering guidelines & Agent Protocols
 ├── README.md                          # Main contributor guide & repository index (this file)
 ├── index.html                         # GitHub Pages Web Landing Portal
-├── style.css                          # Custom styles for portal
+├── assets/                            # Scalable Web Application Assets Directory
+│   ├── css/
+│   │   └── style.css                  # Custom design system & glassmorphism styles
+│   ├── js/
+│   │   └── main.js                    # Dynamic JSON schema loader & interactive client engine
+│   └── images/
+│       └── prodigy-logo.svg           # Vector brand assets & diagrams
 ├── docs/                              # Vision & foundational concept documentation
 │   └── conceptnote.md                 # Executive Concept Note
 ├── strategy/                          # Strategy & Global Learnings Engine
 │   └── strategy_and_learnings.md      # Learnings from 12 global models & multi-AI feedback prompts
 ├── planning/                          # Operational Tracking & Resource Procurement Engine
-│   └── meta_venture_plan.md           # Project 0 operational master plan & cloud credits roadmap
+│   ├── meta_venture_plan.md           # Project 0 operational master plan & cloud credits roadmap
+│   ├── task_board.md                  # Project 0 Kanban task board (Backlog, Active, Review, Done)
+│   └── standups_and_contributions.md  # Daily standup log & contribution journal (Humans & AI Agents)
 ├── wiki/                              # Project-level Obsidian Wiki knowledge base
 │   ├── index.md                       # Wiki index & learning module map
 │   └── spot_probe_strategy.md          # Ramesh Raskar Spot-Probe Framework reference
@@ -95,7 +103,7 @@ prodigy/
 │   └── gemini_prompt_playbook.md
 ├── logs/                              # Multi-Agent Suggestion & Critique Logs
 │   └── agent_suggestions.md           # Agent suggestion log for human review
-└── data/                              # Dynamic showcase JSON schemas
+└── data/                              # Dynamic showcase JSON schemas (Database Foundation)
     ├── projects.json
     ├── mentors.json
     ├── collaborators.json
