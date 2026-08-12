@@ -1,0 +1,18 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Node & Build artifacts
+node_modules/
+dist/
+build/
+*.log
+
+# Temporary & Environment files
+.env
+.env.local
+*.tmp
+*.bak
