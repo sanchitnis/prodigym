@@ -342,6 +342,12 @@
       <h2 class="section-title">Collaborator Learning Engine</h2>
       <p class="section-subtitle">Obsidian Wiki knowledge base and Gemini prompt playbooks for human-AI co-working.</p>
 
+      <!-- Live Wiki & Knowledge Search Bar -->
+      <div class="wiki-search-box">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: var(--text-dim);"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <input type="text" id="wiki-search-input" placeholder="Search concept notes, prompt playbooks, or guides...">
+      </div>
+
       <div class="docs-grid">
         <a href="wiki/index.md" class="doc-card">
           <div>
@@ -401,10 +407,18 @@
           <span class="doc-link">Read Concept Note →</span>
         </a>
 
+        <a href="docs/getting_started_guide.md" class="doc-card" id="link-getting-started" style="border-color: var(--accent-cyan);">
+          <div>
+            <h3 class="doc-title">Getting Started Guide <span>🚀</span></h3>
+            <p class="doc-desc">Step-by-step onboarding walkthrough for Students, Mentors, Faculty, Hubs, and Support Experts.</p>
+          </div>
+          <span class="doc-link" style="color: var(--accent-cyan);">Read Getting Started Guide →</span>
+        </a>
+
         <a href="AGENTS.md" class="doc-card" id="link-agents">
           <div>
             <h3 class="doc-title">Agentic Graph Guidelines <span>🤖</span></h3>
-            <p class="doc-desc">Operational rules, multi-agent roles, and suggestion logging protocol for AI agents.</p>
+            <p class="doc-desc">Operational rules, multi-agent checklists, and suggestion logging protocol for AI models.</p>
           </div>
           <span class="doc-link">View Agent Guidelines →</span>
         </a>
@@ -418,6 +432,16 @@
       <div class="hero-pill" style="background: rgba(6, 182, 212, 0.12); border-color: rgba(6, 182, 212, 0.3); color: var(--accent-cyan);">🤝 Ecosystem Call & Registration</div>
       <h2 class="section-title">Join the PRODIGY Ecosystem</h2>
       <p class="section-subtitle">Collaborate with AI agents and human leads to build, de-risk, and scale high-impact ventures in the AGI Era.</p>
+
+      <!-- Interactive Persona Filter Buttons -->
+      <div class="persona-filter-container">
+        <button class="persona-filter-btn active-filter" data-role="all">✨ All Roles</button>
+        <button class="persona-filter-btn" data-role="participants">🎓 Students & Founders</button>
+        <button class="persona-filter-btn" data-role="mentors">🧙‍♂️ Mentors & Experts</button>
+        <button class="persona-filter-btn" data-role="orgs">🏛️ Institutional Hubs</button>
+        <button class="persona-filter-btn" data-role="support">🛠️ Support & VCs</button>
+        <button class="persona-filter-btn" data-role="general">🤝 General Leads</button>
+      </div>
 
       <div class="triad-grid" style="margin-bottom: 50px;">
         <!-- Card 1: Mentors & Domain Experts -->

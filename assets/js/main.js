@@ -11,6 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
   loadProjectsData();
   loadMentorsData();
   setupSmoothScroll();
+  setupPersonaFilter();
+  setupWikiSearch();
 });
 
 /**
@@ -110,6 +112,58 @@ async function loadMentorsData() {
   } catch (err) {
     console.log('Mentors data loading fallback active.');
   }
+}
+
+/**
+ * Setup Persona Filter Buttons
+ */
+function setupPersonaFilter() {
+  const filterBtns = document.querySelectorAll('.persona-filter-btn');
+  const roleCards = document.querySelectorAll('.triad-grid .triad-card[id^="role-"]');
+
+  if (filterBtns.length === 0 || roleCards.length === 0) return;
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => b.classList.remove('active-filter'));
+      btn.classList.add('active-filter');
+
+      const targetRole = btn.getAttribute('data-role');
+
+      roleCards.forEach(card => {
+        if (targetRole === 'all' || card.id === `role-${targetRole}`) {
+          card.style.display = 'block';
+          card.style.opacity = '1';
+        } else {
+          card.style.display = 'none';
+          card.style.opacity = '0';
+        }
+      });
+    });
+  });
+}
+
+/**
+ * Setup Live Wiki & Playbook Search
+ */
+function setupWikiSearch() {
+  const searchInput = document.getElementById('wiki-search-input');
+  const wikiCards = document.querySelectorAll('#learning .doc-card, #docs .doc-card');
+
+  if (!searchInput || wikiCards.length === 0) return;
+
+  searchInput.addEventListener('input', (e) => {
+    const query = e.target.value.toLowerCase().trim();
+
+    wikiCards.forEach(card => {
+      const text = card.textContent.toLowerCase();
+      if (query === '' || text.includes(query)) {
+        card.style.display = 'flex';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  });
 }
 
 /**
