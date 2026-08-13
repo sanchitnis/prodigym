@@ -27,7 +27,7 @@ If you are a Core Contributor (AI Venture Orchestrator, Core Developer, Systems 
 If you are a Community User, Student, Faculty Lead, Startup Founder, Mentor, or Support Partner:
 
 ### 🎓 1. Students & Life-Long Learners
-1. **Register**: Complete the [Official Google Form Registration](https://docs.google.com/forms/d/e/1FAIpQLScPRODIGYEcosystemRegistration/viewform) managed by Dr. Sanjay Chitnis (`sanjay.chitnis@gmail.com`).
+1. **Register**: Complete the [Official Google Form Registration](https://docs.google.com/forms/d/e/1FAIpQLSf6CkQQXXr3306tPjUFi6nODpdLXT-F6uyFrLpoEcK5iBAa5Q/viewform) managed by Dr. Sanjay Chitnis (`sanjay.chitnis@gmail.com`).
 2. **Explore Projects & Probes**: Browse existing venture probes in the [Web Portal Showcase](https://sanchitnis.github.io/prodigy/#projects) or inspect [`data/projects.json`](../data/projects.json).
 3. **Hatch or Join a Probe**:
    - Create your own downstream project repository on GitHub (or join an existing team).
@@ -35,7 +35,7 @@ If you are a Community User, Student, Faculty Lead, Startup Founder, Mentor, or 
    - Learn via the [Obsidian Wiki](../wiki/index.md) and [AI Prompt Playbook](../notebooks/prompt_playbook.md).
 
 ### 👨‍🏫 2. Mentors & HEITL Jury Members
-1. **Register**: Complete the [Google Form Registration](https://docs.google.com/forms/d/e/1FAIpQLScPRODIGYEcosystemRegistration/viewform) selecting *Mentor / HEITL Expert*.
+1. **Register**: Complete the [Google Form Registration](https://docs.google.com/forms/d/e/1FAIpQLSf6CkQQXXr3306tPjUFi6nODpdLXT-F6uyFrLpoEcK5iBAa5Q/viewform) selecting *Mentor / HEITL Expert*.
 2. **Review & Guide**: Review student probe repositories and assign Solution Maturity Index (SMI 1–10) scores using the [AI Review Checklists in AGENTS.md](../AGENTS.md).
 3. **Co-Create & Advisory**: Guide high-SMI Stage 3/4 ventures toward enterprise incubation, IP filings, or equity advisory roles.
 

@@ -114,3 +114,64 @@ Before the ecosystem can scale or attract partners, the core onboarding loops mu
 - [ ] **Issue 3 (Beachhead Market)**: Create `strategy/beachhead.md` defining the 1 specific institution and domain we will pilot Cohort 1 in. **[NEEDS HUMAN INPUT]**
 - [ ] **Issue 7 (Task Board)**: Add a "Community Backlog" section to `task_board.md` with tasks that non-founders can actually pick up.
 - [ ] **Issue 4 (References)**: Create an external evidence/references directory to ground the theoretical documents.
+
+---
+
+### [SUGGESTION-2026-08-13-005] Stage 2 Critical Review Fixes (Content Clarity & Messaging)
+- **Timestamp**: 2026-08-13 T14:25:00+05:30
+- **Agent / Source Model**: Gemini 3.6 Flash (Antigravity Assistant)
+- **Target Workstream**: Outreach & Branding Engine
+- **Target File(s)**: `strategy/concept-note.md`, `index.html`
+- **Status**: APPROVED
+
+#### 1. Core Proposal
+Implement the messaging and content clarity fixes from Part 2 of the critical review. Specifically, integrate the Founder's Story and the explicit "Why" behind the project to provide social proof. Ensure the narrative speaks directly to the needs of the user (students, mentors, etc.) rather than just detailing the architectural framework.
+
+#### 2. Rationale & Benchmark Alignment
+People join movements led by authentic people, not abstract frameworks. Including the founder's rich background (IITK, IISc, Motorola, LG) and their specific motivation (acting as a catalyst for students' aspirations) humanizes PRODIGY. Y Combinator and École 42 both heavily lean on their founders' stories to establish initial trust.
+
+#### 3. Action Items / Implementation Plan
+- [x] **Issue 13 (Founder Story)**: Add the Founder's Bio and "Why" statement to `strategy/concept-note.md` and `index.html`.
+- [x] **Issue 10 (Concept Note Length)**: Create a 1-page overview document (`strategy/one_pager.md`). *(Implemented in previous session)*
+- [x] **Issue 12 (Outreach Framing)**: Rewrite outreach templates to focus on the reader's benefits. *(Implemented in previous session)*
+
+---
+
+### [SUGGESTION-2026-08-13-006] Stage 3 Critical Review Fixes (Operational Execution Engine)
+- **Timestamp**: 2026-08-13 T14:28:00+05:30
+- **Agent / Source Model**: Gemini 3.6 Flash (Antigravity Assistant)
+- **Target Workstream**: Meta-Plan & Resources
+- **Target File(s)**: `docs/operational_playbook.md`, `docs/points_and_recognition.md`, `docs/mentor_onboarding.md`
+- **Status**: APPROVED
+
+#### 1. Core Proposal
+Build the missing operational mechanics required to actually run the first cohort. This includes defining the day-to-day playbook, structuring the mentor engagement model to be sustainable, and establishing a clear scoring mechanism for the leaderboard.
+
+#### 2. Rationale & Benchmark Alignment
+A great curriculum fails without a functional school. Establishing lightweight, manual operational processes (using existing tools like Google Sheets/Forms) ensures the project can handle 10-15 students without breaking. Structured, time-boxed mentor commitments prevent drop-off and set clear expectations.
+
+#### 3. Action Items / Implementation Plan
+- [ ] **Issue 14 (Operational Platform)**: Create `docs/operational_playbook.md` outlining the low-tech stack (GitHub, WhatsApp, Google Sheets) for Cohort 1.
+- [ ] **Issue 16 (Scoring Infrastructure)**: Create `docs/points_and_recognition.md` defining how leaderboard points are earned.
+- [ ] **Issue 17 (Mentor Model)**: Create `docs/mentor_onboarding.md` defining the 3 tiers of mentor time commitment.
+- [x] **Issue 18 (Project Matching)**: Create `docs/project_catalog.md` with active projects. *(Implemented in previous session)*
+
+---
+
+### [SUGGESTION-2026-08-13-007] Stage 4 Critical Review Fixes (Growth & Sustainability)
+- **Timestamp**: 2026-08-13 T14:30:00+05:30
+- **Agent / Source Model**: Gemini 3.6 Flash (Antigravity Assistant)
+- **Target Workstream**: Outreach & Branding Engine / Strategy
+- **Target File(s)**: `planning/meta_venture_plan.md`
+- **Status**: PENDING_CORE_TEAM_PLAN
+
+#### 1. Core Proposal
+Address the sustainability and growth bottleneck identified in Part 4 of the critical review. This requires sequencing outreach *after* the product is ready, designing natural viral growth loops, and formulating a bridge funding strategy for Year 1 (since venture equity/consulting revenue is years away).
+
+#### 2. Rationale & Benchmark Alignment
+Linear outreach is exhausting and unscalable. Incorporating referral loops and portfolio share-ability creates a self-sustaining growth flywheel. Furthermore, relying entirely on founder funding in Phase 0 creates fragility; identifying short-term bridge grants ensures operational survival.
+
+#### 3. Action Items / Implementation Plan
+- [ ] **Issue 25 (90-Day Playbook)**: Core team to design and commit to a 90-day launch playbook focused on a single beachhead.
+- [ ] **Issue 22 (Financial Bridge)**: Update strategy with Year 1 bridge funding targets (cloud credits, institutional grants).
+- [ ] **Issue 21 (Growth Flywheel)**: Design portfolio sharing templates and referral mechanisms.

@@ -27,6 +27,17 @@
 
 ---
 
+### 🌱 Community Backlog (Good First Issues)
+
+*Tasks that anyone in the community can pick up immediately to contribute to PRODIGY and earn leaderboard points.*
+
+- [ ] `[COMM-001]` **Bug Bash**: Find and fix any broken links on the PRODIGY GitHub Pages website.
+- [ ] `[COMM-002]` **Documentation**: Add your own "Problem Canvas" example to `wiki/` based on a local problem you observe in your city.
+- [ ] `[COMM-003]` **Design**: Create a nice SVG logo or banner for the "Srujana 4-Stage Pathway".
+- [ ] `[COMM-004]` **Code**: Help us connect `data/projects.json` to a dynamic gallery on the website so it auto-updates.
+
+---
+
 ### 🔄 In Progress (Active Execution)
 
 - [ ] `[TASK-006]` Conduct multi-AI strategic feedback loops using Claude 3.5 Sonnet & GPT-4o prompt templates ([strategy/strategy_and_learnings.md](../strategy/strategy_and_learnings.md)).

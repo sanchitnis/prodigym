@@ -12,23 +12,23 @@
   },
   {
     "id": "proj-001",
-    "name": "AgriSense SPOT-PROBE",
+    "name": "[PLACEHOLDER] AgriSense SPOT-PROBE",
     "stage": "Stage 1 (Probe)",
     "domain": "Sustainable Agriculture",
-    "lead": "Student Team - Hub Alpha",
+    "lead": "[PLACEHOLDER: student-team-1]",
     "smi_level": "SMI 1.5",
-    "description": "AI-assisted pest diagnostic and soil moisture micro-probe for smallholder farmers using offline-first edge models.",
+    "description": "[PLACEHOLDER PROJECT] AI-assisted pest diagnostic and soil moisture micro-probe for smallholder farmers using offline-first edge models.",
     "repo_url": "https://github.com/sanchitnis/prodigy",
     "impact_tag": "Rural Empowerment"
   },
   {
     "id": "proj-002",
-    "name": "MedAssist HEITL Triage",
+    "name": "[PLACEHOLDER] MedAssist HEITL Triage",
     "stage": "Stage 2 (Collaborative R&D)",
     "domain": "Healthcare & Diagnostics",
-    "lead": "Student-Mentor Cohort Beta",
+    "lead": "[PLACEHOLDER: student-team-2]",
     "smi_level": "SMI 2.0",
-    "description": "Multilingual clinical triage assistant empowering primary healthcare workers with Human-Expert-in-the-Loop oversight.",
+    "description": "[PLACEHOLDER PROJECT] Multilingual clinical triage assistant empowering primary healthcare workers with Human-Expert-in-the-Loop oversight.",
     "repo_url": "https://github.com/sanchitnis/prodigy",
     "impact_tag": "Public Health"
   }

@@ -1,96 +1,75 @@
 # WhatsApp Outreach Templates: Project PRODIGY
 
-These WhatsApp message templates are designed for quick, high-impact sharing across WhatsApp groups, mentor broadcasts, student networks, and academic forums.
+These WhatsApp message templates are designed with "outside-in" messaging—leading with the reader's problem, not the project's vision. Use these for quick, high-impact sharing across your network.
 
 ---
 
-## 📱 Template 1: General Ecosystem Announcement & Thought-Provoking Call
+## 📱 Template 1: For Students (Focus: Portfolio & AI-Era Jobs)
 
-**Subject / Header**: 🤖 *How are we preparing our future citizens & leaders for the era of AGI?*
+Hey [Name]! Quick question — what's in your project portfolio right now?
 
-Dear Friends & Colleagues,
+If the answer is "college assignments and a to-do app," we need to talk. Recruiters in 2026 want to see real projects solving real problems, not textbook exercises. 
 
-As Artificial General Intelligence (AGI) and Super-AI rapidly transform our world, standard entry-level software and task-based roles are vanishing. 
+There's a community called **Project PRODIGY** where students team up with industry mentors to build actual solutions—AI tools for farmers, health tech, fintech—and you keep everything in your portfolio. 
 
-**How are we preparing our future citizens and leaders to thrive in this high-velocity shift?**
+No fees. No lectures. Just real projects with real mentors.
 
-We invite you to explore **Project PRODIGY** (**P**ipeline for **R**esearch **O**riented **D**evelopment with **I**ntelligence of **G**lobal **Y**outh)—a global meta-venture studio designed to empower students and faculty through **Human + Augmented Intelligence**.
+Start your first challenge (takes 2 hours): [Link to Stage 1 Guide]
+Or explore what we're building: [Link to Website]
 
-✨ **Key Highlights**:
-- **Srujana 4-Stage Pathway**: Embedding hands-on R&D into STEAM+ curricula (Science, Tech, Education, Arts/Humanities, Management).
-- **Human-Centric Mastery**: Cultivating 4 C skills (Critical Thinking, Communication, Collaboration, Creativity) with *you as the boss of AI agents*.
-- **Co-opetition Framework**: Cooperating on pre-competitive R&D & compute while competing in market venture hatching.
-
-🌐 **Explore Live Portal**: https://sanchitnis.github.io/prodigy/  
-📖 **Read Executive Concept Note**: https://github.com/sanchitnis/prodigy/blob/main/strategy/concept-note.md
-
-🤝 **Our Specific Ask**:
-We are seeking specific suggestions, institutional hub partnerships, CTO problem statements, and expert mentors. Please review our concept note and share your feedback directly with Founder **Dr. Sanjay Chitnis** at `sanjay.chitnis@gmail.com`.
+Questions? DM me or email sanjay.chitnis@gmail.com
 
 ---
 
-## 📱 Template 2: For Students & Student Club Leads
+## 📱 Template 2: For Faculty & Professors (Focus: Admin Burden & Capstones)
 
-**Header**: 🚀 *Boss Your AI Agents & Build High-Impact Projects with PRODIGY!*
+Dear Professor [Name],
 
-Hey Student Leads & Innovators! 👋
+Quick question: How much time did you spend last semester designing capstone topics, finding industry mentors, and writing accreditation documents for student projects?
 
-Are you relying on traditional coding classes while AI automates routine tech tasks? 
+**Project PRODIGY** is a community venture studio that gives you:
+✅ Ready-to-use project templates with rubrics (no more designing from scratch)
+✅ Industry mentors who bring real problem statements to your students
+✅ A framework that maps directly to NBA/NAAC outcome documentation
 
-**How are you preparing yourself to lead as a future citizen in the AGI Era?**
+Your students build better projects. You spend less time on admin. Your placement metrics improve.
 
-**Project PRODIGY** is building a global platform where student teams run real-world projects—from micro-learning tasks and hackathons to patentable IP and commercial startup spinoffs—with **you as the boss of AI agents**.
-
-🎯 **What You Get**:
-- Master human-centered 4 C skills & AI co-working tools.
-- Participate in physical paid Co-Op programs and industry-mentored campus projects.
-- Compete on global leaderboards and launch high-impact ventures.
-
-🌐 **Visit Web Portal**: https://sanchitnis.github.io/prodigy/  
-📄 **Read Executive Concept Note**: https://github.com/sanchitnis/prodigy/blob/main/strategy/concept-note.md
-
-💡 **Specific Ask**: Share this message with your student clubs, explore the project showcase, and submit your project ideas or mentor requests!
+Would you be open to a 15-minute call to see if this fits your department? -> sanjay.chitnis@gmail.com
+Overview: [Link to One-Pager]
 
 ---
 
-## 📱 Template 3: For Faculty Members & Campus Professors
+## 📱 Template 3: For Industry Veterans & CTOs (Focus: Talent & R&D)
 
-**Header**: 🏛️ *Transform Engineering & STEAM+ Pedagogy with Project PRODIGY*
+Hi [Name],
 
-Respected Faculty Colleagues,
+As a tech leader, how much time does your team waste interviewing freshers who only have theoretical knowledge and no real-world problem-solving skills?
 
-With the rapid acceleration of AI, traditional rote instruction is no longer sufficient. 
+**Project PRODIGY** is fixing this. We pair ambitious students with industry mentors to build AI-powered solutions for real problems. 
 
-**How are our educational institutions fulfilling their responsibility to prepare future citizens and leaders for a smooth societal transition?**
+We're looking for tech leaders to:
+1. Submit a problem statement your team doesn't have time to build.
+2. Mentor a student team (1 hr/week async).
+3. Get first access to hire the talent that actually delivers.
 
-**Project PRODIGY** invites professors across Engineering, Sciences, Education, Humanities (Psychology, Policy, IKS, Economics), and Management to participate in our **Faculty TRACK Projects**:
-- **T**: Teaching & Learning Innovations
-- **R**: Research & TRL 1–9 Prototype Development
-- **A**: Academic Administration & NEP Alignment
-- **C**: Paid Outcome-Based Corporate Consulting
-- **K**: Kaizen Quality Improvements
+Want to see what the students are building? [Link to Project Catalog]
+Read the 1-page overview: [Link to One-Pager]
 
-🌐 **Web Portal**: https://sanchitnis.github.io/prodigy/  
-📖 **Executive Charter**: https://github.com/sanchitnis/prodigy/blob/main/strategy/concept-note.md
+Want to see how we build? The PRODIGY ecosystem itself runs on **Agentic Graph Engineering**—a deep collaboration between human experts and AI agents. Check out our repository to see a live case study of this architecture in action: https://github.com/sanchitnis/prodigy
 
-🤝 **Specific Ask**: We invite you to join as a **Faculty Mentor (Tier B)** or serve as a **Faculty SPOC** for your institute. Share your feedback with Dr. Sanjay Chitnis (`sanjay.chitnis@gmail.com`).
+Let me know if you'd like to chat! -> sanjay.chitnis@gmail.com
 
 ---
 
-## 📱 Template 4: For Industry Veterans, CTOs & Mentors
+## 📱 Template 4: General / Friends & Network
 
-**Header**: 🧙‍♂️ *Guide the Next Generation of AI-Era Talent & Deep R&D Probes*
+Hey [Name], 
 
-Dear Tech Leaders & Industry Veterans,
+I'm helping build **Project PRODIGY**—a community venture studio where students, faculty, and mentors team up to build AI solutions for real-world problems (healthcare, agriculture, etc.). 
 
-**How are we preparing our future citizens and leaders to solve complex real-world challenges alongside AI?**
+We're trying to fix the gap between what colleges teach and what the AI-era actually needs. We're looking for students who want to build, mentors who want to guide, and anyone who wants to help.
 
-**Project PRODIGY** invites senior engineers, CTOs, and domain experts to join our **5-Tier Mentorship Network**:
-- Mentor student teams on real-world industry problem statements.
-- Guide physical paid Co-Op & internship programs.
-- Participate in Expert Jury HEITL reviews for patentable IP.
+Takes 3 minutes to join the ecosystem: https://docs.google.com/forms/d/e/1FAIpQLSf6CkQQXXr3306tPjUFi6nODpdLXT-F6uyFrLpoEcK5iBAa5Q/viewform
+Read the 1-page overview: [Link to One-Pager]
 
-🌐 **Web Portal**: https://sanchitnis.github.io/prodigy/  
-📖 **Full Governance Charter**: https://github.com/sanchitnis/prodigy/blob/main/strategy/concept-note.md#9-multi-tier-ecosystem-governance--team-architecture
-
-🤝 **Specific Ask**: Submit industry problem statements or sign up as a **Tier C (Industry/CTO) or Tier D (STEAM+ Expert) Mentor**. Contact Initiative Lead Dr. Sanjay Chitnis at `sanjay.chitnis@gmail.com`.
+Would love to have you involved!

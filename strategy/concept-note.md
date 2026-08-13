@@ -37,6 +37,7 @@
   - [9.4 Enterprise & Corporate Partner Governance](#94-enterprise--corporate-partner-governance)
   - [9.5 Expanded Mentorship & Ecosystem Network](#95-expanded-mentorship--ecosystem-network)
   - [9.6 Ecosystem Marketplace & Collaborator Directory](#96-ecosystem-marketplace--collaborator-directory)
+- [10. Founder's Story & The "Why" Behind PRODIGY](#10-founders-story--the-why-behind-prodigy)
 
 ---
 
@@ -117,6 +118,15 @@ PROJECT PRODIGY adopts an expanded 5-part interpretation of **STEAM**:
   * **Sports Science & Management**: Performance analytics, sports tech, wellness.
   * **Tourism, Experience Design & Hospitality**: Cultural heritage tech, eco-tourism, experience design.
 * **M (Management & Administration)**: Organizational design, venture building, project governance, financial stewardship, cooperative sector economics, agile operations.
+
+### 2.3 The Execution Engine: Agentic Graph Engineering & HEITL
+PROJECT PRODIGY does not just teach about Artificial Intelligence; it **runs** on it. The entire ecosystem is structured as a collaborative venture between human experts and autonomous AI agents. 
+
+We have moved beyond static "prompt engineering" into **Agentic Graph Engineering**. In this paradigm, AI operates as a system of interconnected nodes (a graph) where agents possess specific roles, memory, and toolchain access (like Antigravity SDK, VS Code with Copilot, and Claude Co-work).
+
+Crucially, the human does not get replaced. The student or faculty member acts as the **Human Expert in the Loop (HEITL)**—the "Boss" of the AI agents. The HEITL defines the goal, provides context, and critically verifies the output to catch AI hallucinations. By managing AI agents to plan, track, and execute tasks, humans are forced into a continuous learning loop. 
+
+*For a deep dive into how this system works, read the [Agentic Graph Engineering Wiki](../wiki/agentic_graph_engineering.md).*
 
 ---
 
@@ -356,6 +366,16 @@ Mentorship in PRODIGY operates across 5 core tiers plus 2 ecosystem liaison cate
 
 ### 9.6 Ecosystem Marketplace & Collaborator Directory
 PRODIGY maintains an interactive marketplace directory (on the web portal and workspace wiki) where participants, student teams, and institutional leads can list open projects, request faculty SPOCs, or connect with CTO-level mentors.
+
+---
+
+## 10. Founder's Story & The "Why" Behind PRODIGY
+
+*“I have been working in Artificial Intelligence since my M.Tech at IIT Kanpur and my Ph.D. at IISc. Over the course of my career, I've worked across multinational Global Capability Centers (GCCs) in India, absorbing the work cultures and technological rigors of both Western giants like Motorola and Eastern leaders like LG.* 
+
+*I transitioned into academia with a singular purpose: to prepare our future generations. We are entering an era of unprecedented change, and our students have immense potential, but they often lack the right runway and guidance. My "WHY" for founding Project PRODIGY is simple: I want to be a catalyst and enabler, providing the structure and mentorship necessary to help our global youth meet their highest aspirations.”*
+
+**— Dr. Sanjay Chitnis, Founder & Lead Studio Orchestrator**
 
 ---
 

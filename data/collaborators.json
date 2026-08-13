@@ -1,16 +1,16 @@
 [
   {
     "id": "collab-001",
-    "name": "Global Youth Researcher Network",
+    "name": "[PLACEHOLDER: student-community-1]",
     "type": "Student Developer Community",
     "focus": "Srujana Stage -1 to Stage 2 Micro-Challenges",
     "region": "Global"
   },
   {
     "id": "collab-002",
-    "name": "Academic Institutional Hubs (Pilots)",
-    "type": "University / Engineering Institute Partners",
-    "focus": "Embedding PRODIGY SPOT-PROBEs into Undergraduate STEAM Curricula",
-    "region": "India & Developing Nations"
+    "name": "[PLACEHOLDER: university-1]",
+    "type": "University Partner",
+    "focus": "Embedding PRODIGY SPOT-PROBEs into Undergraduate Curricula",
+    "region": "India"
   }
 ]
