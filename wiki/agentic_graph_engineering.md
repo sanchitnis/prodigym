@@ -20,11 +20,11 @@ In this model, you don't prompt; you *orchestrate*.
 
 ## 2. The Human Expert in the Loop (HEITL) as the "Boss"
 
-In PRODIGY, the AI does not replace the human. The human acts as the **Human Expert in the Loop (HEITL)**—the "Boss" of the AI agents.
+In PRODIGY, the AI does not replace the human. **Using AI smartly is critical to avoid "brain rot."** The first focus should always be on how much the human user has learned through the process. The human acts as the **Human Expert in the Loop (HEITL)**—the "Boss" of the AI agents.
 
 **Your role as the HEITL:**
 1. **Define the Goal**: Set the strategic direction and provide context (the "graph").
-2. **Review & Gate**: AI models hallucinate. They confidently present incorrect information or flawed logic. The HEITL is responsible for reviewing agent outputs, catching hallucinations, and enforcing quality standards.
+2. **Review & Gate**: AI models hallucinate. They confidently present incorrect information or flawed logic. The HEITL takes full responsibility for the final output, rigorously auditing and reviewing agent outputs to catch hallucinations and enforce quality standards.
 3. **Approve Actions**: Agents propose plans (like modifying code or writing documents), but the HEITL must explicitly approve them before execution.
 
 ## 3. The Toolchain & Agent Harnesses

@@ -124,7 +124,7 @@ PROJECT PRODIGY does not just teach about Artificial Intelligence; it **runs** o
 
 We have moved beyond static "prompt engineering" into **Agentic Graph Engineering**. In this paradigm, AI operates as a system of interconnected nodes (a graph) where agents possess specific roles, memory, and toolchain access (like Antigravity SDK, VS Code with Copilot, and Claude Co-work).
 
-Crucially, the human does not get replaced. The student or faculty member acts as the **Human Expert in the Loop (HEITL)**—the "Boss" of the AI agents. The HEITL defines the goal, provides context, and critically verifies the output to catch AI hallucinations. By managing AI agents to plan, track, and execute tasks, humans are forced into a continuous learning loop. 
+Crucially, the human does not get replaced. **Using AI smartly is critical to avoid "brain rot."** The first focus should always be how much the human user has learned. The student or faculty member acts as the **Human Expert in the Loop (HEITL)**—the "Boss" of the AI agents. The HEITL defines the goal, provides context, and takes full responsibility for the final output through rigorous review, auditing, and verification to catch AI hallucinations. By managing AI agents to plan, track, and execute tasks, humans are forced into a continuous learning loop.
 
 *For a deep dive into how this system works, read the [Agentic Graph Engineering Wiki](../wiki/agentic_graph_engineering.md).*
 
