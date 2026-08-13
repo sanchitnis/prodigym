@@ -91,3 +91,26 @@ Establishes institutional accountability, clear SPOC structures for educational 
 2. Update web portal navbar and document links to point to `strategy/concept-note.md`. [COMPLETED]
 3. Add a dedicated Ecosystem Governance section (`#governance`) to `index.html`. [COMPLETED]
 4. Sync relative links across `README.md`, `AGENTS.md`, `planning/task_board.md`, `docs/getting_started_guide.md`, and `wiki/index.md`. [COMPLETED]
+
+---
+
+### [SUGGESTION-2026-08-13-004] Stage 1 Critical Review Fixes (Foundational Architecture)
+- **Timestamp**: 2026-08-13 T14:20:00+05:30
+- **Agent / Source Model**: Gemini 3.6 Flash (Antigravity Assistant)
+- **Target Workstream**: Meta-Plan & Resources
+- **Target File(s)**: `data/*.json`, `strategy/beachhead.md`, `planning/task_board.md`
+- **Status**: PENDING_HUMAN_REVIEW
+
+#### 1. Core Proposal
+Address the foundational "Monkey-First" bottlenecks identified in Part 1 of the critical review. This includes fixing broken onboarding links, replacing fabricated data with explicit placeholders, defining a narrow beachhead market to launch in, and creating community-accessible tasks.
+
+#### 2. Rationale & Benchmark Alignment
+Before the ecosystem can scale or attract partners, the core onboarding loops must work, and the project must demonstrate extreme honesty about its current traction. Fabricated placeholder names (like "Global Youth Researcher Network") deter serious contributors. Scaling requires a focused beachhead (like Amul in Anand) rather than tackling all of India simultaneously.
+
+#### 3. Action Items / Implementation Plan
+- [x] **Issue 1 (Dead Form)**: Create and link a working Google Form. *(Implemented in previous session)*
+- [x] **Issue 5 (First Week Experience)**: Create `srujana_stage1_guide.md` with 3 micro-challenges. *(Implemented in previous session)*
+- [ ] **Issue 2 (Placeholder Data)**: Update all JSON files (`projects.json`, `mentors.json`, etc.) to explicitly state they are placeholders. Replace fake names with explicit tags like `university-1`, `student-1`, `faculty-01` to maintain transparency while we work on getting real people onboard.
+- [ ] **Issue 3 (Beachhead Market)**: Create `strategy/beachhead.md` defining the 1 specific institution and domain we will pilot Cohort 1 in. **[NEEDS HUMAN INPUT]**
+- [ ] **Issue 7 (Task Board)**: Add a "Community Backlog" section to `task_board.md` with tasks that non-founders can actually pick up.
+- [ ] **Issue 4 (References)**: Create an external evidence/references directory to ground the theoretical documents.
