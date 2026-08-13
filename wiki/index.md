@@ -9,7 +9,7 @@
 ```
 wiki/
 ├── index.md                                 # Wiki main index (this file)
-├── spot_probe_strategy.md                   # Ramesh Raskar Spot-Probe Framework reference
+├── spot_probe_strategy.md                   # Ramesh Raskar SPOT-PROBE Framework reference
 │
 ├── 🎓 learning_pedagogies/                   # Phase 0: Experimental Pedagogies & Andragogies
 │   ├── ecole_42_peer_learning.md            # École 42 Model (Teacherless, Gamified & Piscine)
@@ -75,4 +75,4 @@ wiki/
 - 🧰 Agent Skill Reference: [.agents/skills/venture-development-frameworks/SKILL.md](../.agents/skills/venture-development-frameworks/SKILL.md)
 - 🧪 Prompt Templates: [AI Prompt Playbook](../notebooks/prompt_playbook.md)
 - 🎯 Strategy Matrix: [Strategy & Benchmarking Engine](../strategy/strategy_and_benchmarking.md)
-- 📄 Foundational Concept: [Executive Concept Note](../docs/conceptnote.md)
+- 📄 Foundational Concept: [Executive Concept Note](../strategy/concept-note.md)

@@ -43,7 +43,7 @@
 
 ### ✅ Done (Completed Milestones)
 
-- [x] `[TASK-001]` **Restructure Concept Note Header**: Connect WHAT, HOW, and RESULTING IN (Strategic Triad) in [docs/conceptnote.md](../docs/conceptnote.md).
+- [x] `[TASK-001]` **Restructure Concept Note Header**: Connect WHAT, HOW, and RESULTING IN (Strategic Triad) in [strategy/concept-note.md](../strategy/concept-note.md).
 - [x] `[TASK-002]` **Venture Development Framework Skill**: Create workspace and global skill for 9 venture creation methodologies ([.agents/skills/venture-development-frameworks/SKILL.md](../.agents/skills/venture-development-frameworks/SKILL.md)).
 - [x] `[TASK-003]` **Learnings From 12 Global Models**: Synthesize learnings from iSPIRT DPI, École 42, Minerva, Apple CBL, Aalborg PBL, MIT REDX, YC, Amul, Google X, EF, Pioneer, d.school in [strategy/strategy_and_learnings.md](../strategy/strategy_and_learnings.md).
 - [x] `[TASK-004]` **Repository Folder Restructuring**: Organize into `docs/`, `strategy/`, `planning/`, `wiki/`, `notebooks/`, `logs/`, `data/`, `references/`.

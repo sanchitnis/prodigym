@@ -6,6 +6,22 @@
 
 ---
 
+## 📋 Table of Contents
+- [📌 Core Mission & Meta-Venture Philosophy](#-core-mission--meta-venture-philosophy)
+- [📋 Role-Specific Agent Review Checklists](#-role-specific-agent-review-checklists-for-human-prompters--agent-evaluation)
+  - [🏛️ 1. Strategic Synthesis & Governance Agent Checklist](#️-1-strategic-synthesis--governance-agent-checklist)
+  - [💡 2. User Persona & Market Validation Agent Checklist](#-2-user-persona--market-validation-agent-checklist)
+  - [⚙️ 3. Codebase, Schema & Graph Engineering Agent Checklist](#️-3-codebase-schema--graph-engineering-agent-checklist)
+  - [🎓 4. Pedagogy, Andragogy & Learning Engine Agent Checklist](#-4-pedagogy-andragogy--learning-engine-agent-checklist)
+  - [🔬 5. Domain Technical & Regulatory Feasibility Agent Checklist](#-5-domain-technical--regulatory-feasibility-agent-checklist)
+- [📝 Agent Suggestion & Critique Logging Protocol](#-agent-suggestion--critique-logging-protocol)
+- [📁 Repository Directory Structure & Naming Conventions](#-repository-directory-structure--naming-conventions)
+- [🕸️ Agentic Graph Engineering: 4 Top-Level Workstreams](#️-agentic-graph-engineering-4-top-level-workstreams)
+- [🧰 Specialized Venture Development Skill Reference](#-specialized-venture-development-skill-reference)
+- [🤖 Agent Execution Rules & Best Practices](#-agent-execution-rules--best-practices)
+
+---
+
 ## 📌 Core Mission & Meta-Venture Philosophy
 
 You operate under the **PRODIGY Strategic Triad**:
@@ -136,10 +152,8 @@ prodigy/
 │   │   └── main.js                    # Dynamic JSON schema loader & interactive client logic
 │   └── images/
 │       └── prodigy-logo.svg           # Vector brand assets & diagrams
-├── docs/                              # Vision & foundational concept documentation
-│   ├── conceptnote.md                 # Executive Concept Note
-│   └── getting_started_guide.md       # Onboarding guide for Core Contributors & Users
 ├── strategy/                          # Strategy & Global Learnings Engine
+│   ├── concept-note.md                # Executive Concept Note & Governance Charter
 │   └── strategy_and_learnings.md      # Learnings from 12 global models & multi-agent prompt protocols
 ├── planning/                          # Operational Tracking & Resource Procurement Engine
 │   ├── meta_venture_plan.md           # Project 0 operational master plan & cloud credits roadmap
@@ -207,7 +221,7 @@ When evaluating the strategy, business model, pilot de-risking, or growth stage 
 2. **Be Empirical & Concrete**: Avoid hollow marketing buzzwords. Use specific metrics, financial models, user workflows, and code structures.
 3. **Log Suggestions Formally**: Log all structural or strategic proposals in `logs/agent_suggestions.md` for human review.
 4. **Preserve Relative Linkage**: Always use relative markdown links pointing to repository files:
-   - [Executive Concept Note](docs/conceptnote.md)
+   - [Executive Concept Note](strategy/concept-note.md)
    - [Strategy & Global Learnings](strategy/strategy_and_learnings.md)
    - [Meta-Venture Plan](planning/meta_venture_plan.md)
    - [Spot-Probe Strategy](wiki/spot_probe_strategy.md)

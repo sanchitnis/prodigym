@@ -1,6 +1,6 @@
 # STRATEGY FRAMEWORK: RAMESH RASKAR'S SPOT-PROBE ENGINE FOR PRODIGY
 
-> **Document Purpose**: A dedicated strategic methodology reference applying Professor Ramesh Raskar’s (MIT Media Lab) Spot-Probe Framework to guide problem identification, rapid AI-augmented prototyping, validation, and venture scaling for Project PRODIGY.
+> **Document Purpose**: A dedicated strategic methodology reference applying Professor Ramesh Raskar’s (MIT Media Lab) SPOT-PROBE Framework to guide problem identification, rapid AI-augmented prototyping, validation, and venture scaling for Project PRODIGY.
 
 ---
 
@@ -75,6 +75,6 @@ Validated probes transition into commercial deployment:
 ## 4. How to Use This Strategy Document
 
 This document serves as a foundational methodology guide for:
-1. **Developing Detailed Initiative Proposals**: Using Spot-Probe metrics to pitch enterprise partners and university boards.
+1. **Developing Detailed Initiative Proposals**: Using SPOT-PROBE metrics to pitch enterprise partners and university boards.
 2. **Structuring Sprint Challenges**: Framing Stage 1 & Stage 2 leaderboard tasks as probes to test market hypotheses.
 3. **Evaluating Venture Feasibility**: Running Stage 3 capstone projects through the SMI rubric prior to Stage 4 incubation.

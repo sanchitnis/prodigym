@@ -99,5 +99,5 @@ Key Questions for Feedback:
 2. How can we best adapt iSPIRT's volunteer pod model to engage senior researchers and industry veterans as mentors?
 3. What academic institutions and corporate partners should we target for our initial "Project 0" launch?
 
-Please review our concept note [docs/conceptnote.md] and strategic learnings matrix, and share your insights.
+Please review our concept note [strategy/concept-note.md] and strategic learnings matrix, and share your insights.
 ```

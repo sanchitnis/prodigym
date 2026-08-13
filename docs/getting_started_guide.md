@@ -53,7 +53,7 @@ If you are a Community User, Student, Faculty Lead, Startup Founder, Mentor, or 
 ## 🔗 Key Documentation Index
 
 - 🌐 [Live Web Portal](https://sanchitnis.github.io/prodigy/)
-- 📄 [Executive Concept Note](../docs/conceptnote.md)
+- 📄 [Executive Concept Note](../strategy/concept-note.md)
 - 🎯 [Strategy & Global Learnings](../strategy/strategy_and_learnings.md)
 - 📌 [Srujana Pathway Reference](../references/srujana-pathway.md)
 - 📋 [Project 0 Task Board](../planning/task_board.md)

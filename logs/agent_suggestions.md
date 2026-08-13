@@ -34,7 +34,7 @@ Concrete steps required to execute if approved by human leads.
 - **Timestamp**: 2026-08-12 T13:25:00+05:30
 - **Agent / Source Model**: Gemini 3.6 Flash (Antigravity Assistant)
 - **Target Workstream**: Meta-Venture Architecture & Governance
-- **Target File(s)**: [AGENTS.md](../AGENTS.md), [README.md](../README.md), [docs/conceptnote.md](../docs/conceptnote.md), [strategy/strategy_and_benchmarking.md](../strategy/strategy_and_benchmarking.md)
+- **Target File(s)**: [AGENTS.md](../AGENTS.md), [README.md](../README.md), [strategy/concept-note.md](../strategy/concept-note.md), [strategy/strategy_and_benchmarking.md](../strategy/strategy_and_benchmarking.md)
 - **Status**: IMPLEMENTED
 
 #### 1. Core Proposal
@@ -71,3 +71,23 @@ While the site and strategy documents are comprehensive, potential collaborators
 3. **Collaborator Getting Started Guide (`docs/getting_started_guide.md`)**: Create a step-by-step onboarding guide for human and AI contributors. [COMPLETED]
 4. **Searchable Wiki & Prompt Playbook Preview (`index.html` & `main.js`)**: Add a live search bar filtering Obsidian concept notes and Gemini prompt templates directly on the landing portal. [COMPLETED]
 
+---
+
+### [SUGGESTION-2026-08-13-003] Concept Note Relocation & Multi-Tier Ecosystem Governance Integration
+- **Timestamp**: 2026-08-13 T11:30:00+05:30
+- **Agent / Source Model**: Gemini 3.6 Flash (Antigravity Assistant)
+- **Target Workstream**: Strategy & Multi-Tier Governance Architecture
+- **Target File(s)**: [strategy/concept-note.md](../strategy/concept-note.md), [index.html](../index.html), [README.md](../README.md), [AGENTS.md](../AGENTS.md)
+- **Status**: IMPLEMENTED (Approved by Dr. Sanjay Chitnis)
+
+#### 1. Core Proposal
+Relocate `docs/conceptnote.md` to `strategy/concept-note.md` and integrate a comprehensive 6-tier Governance Architecture into both the Executive Concept Note and the main web portal (`index.html`).
+
+#### 2. Rationale & Benchmark Alignment
+Establishes institutional accountability, clear SPOC structures for educational and corporate hubs, a 5-tier mentorship hierarchy (Peer, Faculty, CTO, Domain Expert, Strategic Advisor), and explicit leadership under Founder Dr. Sanjay Chitnis for Project 0 execution.
+
+#### 3. Action Items / Implementation Plan
+1. Relocate `docs/conceptnote.md` to `strategy/concept-note.md` and add Section 9: *Multi-Tier Ecosystem Governance & Team Architecture*. [COMPLETED]
+2. Update web portal navbar and document links to point to `strategy/concept-note.md`. [COMPLETED]
+3. Add a dedicated Ecosystem Governance section (`#governance`) to `index.html`. [COMPLETED]
+4. Sync relative links across `README.md`, `AGENTS.md`, `planning/task_board.md`, `docs/getting_started_guide.md`, and `wiki/index.md`. [COMPLETED]

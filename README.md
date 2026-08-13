@@ -14,7 +14,25 @@
 > **WHAT:** **P**ipeline for **R**esearch **O**riented **D**evelopment with **I**ntelligence of **G**lobal **Y**outh  
 > **HOW:** *Building Our Common Future through Human + Augmented Intelligence — A Collaborative Meta-Venture Studio powered by Agentic Graph Engineering*  
 > **RESULTING IN (STRATEGIC TRIAD):**  
-> $$\mathbf{TALENT} \;\;\bullet\;\; \mathbf{ECOSYSTEM} \;\;\bullet\;\; \mathbf{VENTURES}$$
+> $$\mathbf{TALENT} \;\;\bullet\;\; \mathbf{ECOSYSTEM} \;\;\bullet\;\; \mathbf{VENTURES}$$  
+>  
+> 📄 **Executive Charter**: [Executive Concept Note & Governance Charter](strategy/concept-note.md)
+
+---
+
+## 📋 Table of Contents
+- [🌟 Executive Overview: PRODIGY as a Meta-Venture](#-executive-overview-prodigy-as-a-meta-venture)
+- [👥 Contributor & User Model: Two Distinct Roles](#-contributor--user-model-two-distinct-roles)
+- [⚡ Project 0: Incubating, Deploying & Scaling PRODIGY](#-project-0-incubating-deploying--scaling-prodigy)
+- [🕸️ Agentic Graph Engineering: 4 Top-Level Workstreams](#%EF%B8%8F-agentic-graph-engineering-4-top-level-workstreams)
+- [🚀 The Srujana 4-Stage Pathway & Mentoring Philosophy](#-the-srujana-4-stage-pathway--mentoring-philosophy)
+  - [📍 The 4 Developmental Stages](#-the-4-developmental-stages)
+  - [🧠 The Underlying Mentoring Philosophy](#-the-underlying-mentoring-philosophy)
+- [🏆 Contribution Leaderboard & Showcase](#-contribution-leaderboard--showcase)
+- [📁 Repository Directory Structure](#-repository-directory-structure)
+- [🤝 Ecosystem Call & Registration](#-ecosystem-call--registration)
+  - [📝 Registration & Contact](#-registration--contact)
+- [🔗 Quick Reference Links](#-quick-reference-links)
 
 ---
 
@@ -125,9 +143,8 @@ prodigy/
 │   │   └── main.js                    # Dynamic JSON schema loader & interactive client engine
 │   └── images/
 │       └── prodigy-logo.svg           # Vector brand assets & diagrams
-├── docs/                              # Vision & foundational concept documentation
-│   └── conceptnote.md                 # Executive Concept Note
 ├── strategy/                          # Strategy & Global Learnings Engine
+│   ├── concept-note.md                # Executive Concept Note & Governance Charter
 │   └── strategy_and_learnings.md      # Learnings from 12 global models & multi-AI feedback prompts
 ├── planning/                          # Operational Tracking & Resource Procurement Engine
 │   ├── meta_venture_plan.md           # Project 0 operational master plan & cloud credits roadmap
@@ -170,7 +187,7 @@ Project PRODIGY invites collaborators across five operational roles to join our 
 ## 🔗 Quick Reference Links
 
 - 🌐 **Live Web Portal**: [https://sanchitnis.github.io/prodigy/](https://sanchitnis.github.io/prodigy/)
-- 📄 [Executive Concept Note](docs/conceptnote.md)
+- 📄 [Executive Concept Note](strategy/concept-note.md)
 - 🎯 [Strategy & Global Learnings Matrix](strategy/strategy_and_learnings.md)
 - ⚡ [Meta-Venture Execution Plan](planning/meta_venture_plan.md)
 - 📋 [Project 0 Task Board](planning/task_board.md)

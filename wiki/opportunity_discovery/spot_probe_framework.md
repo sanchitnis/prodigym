@@ -52,7 +52,7 @@ In PRODIGY's **Srujana Stage 1**, student leads and mentors use SPOT-PROBE to ma
 ---
 
 ## 🔗 Related Notes & References
-- 📄 Dedicated Reference: [[spot_probe_strategy|Spot-Probe Strategy]]
+- 📄 Dedicated Reference: [[spot_probe_strategy|SPOT-PROBE Strategy]]
 - 🚀 Companion Framework: [[google_x_moonshot|Google X Moonshot Methodology]]
 - 📺 TEDx Talk: [How to Think Like an MIT Media Lab Inventor: Ramesh Raskar at TEDxBeaconStreet](https://www.youtube.com/watch?v=fYnJPtEJj4s)
 - 🏠 Wiki Main Index: [[index|Wiki Home]]
