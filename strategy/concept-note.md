@@ -371,11 +371,12 @@ PRODIGY maintains an interactive marketplace directory (on the web portal and wo
 
 ## 10. Founder's Story & The "Why" Behind PRODIGY
 
-*“I have been working in Artificial Intelligence since my M.Tech at IIT Kanpur and my Ph.D. at IISc. Over the course of my career, I've worked across multinational Global Capability Centers (GCCs) in India, absorbing the work cultures and technological rigors of both Western giants like Motorola and Eastern leaders like LG.* 
+*“My journey with AI started during my M.Tech at IIT Kanpur and PhD at IISc, eventually leading me through multinational GCCs like Motorola and LG. I saw how the world's best tech companies operate.*
 
-*I transitioned into academia with a singular purpose: to prepare our future generations. We are entering an era of unprecedented change, and our students have immense potential, but they often lack the right runway and guidance. My "WHY" for founding Project PRODIGY is simple: I want to be a catalyst and enabler, providing the structure and mentorship necessary to help our global youth meet their highest aspirations.”*
+*I returned to academics because I realized our future generation has immense potential but lacks the right runway. PRODIGY is my way of being an enabler—a catalyst to help students realize their highest aspirations in a rapidly changing world.”*
 
-**— Dr. Sanjay Chitnis, Founder & Lead Studio Orchestrator**
+**— Dr. Sanjay Chitnis, Founder & Lead Studio Orchestrator**  
+[Connect with me on LinkedIn](https://www.linkedin.com/in/sanjaychitnis/)
 
 ---
 
