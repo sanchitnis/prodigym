@@ -153,6 +153,12 @@ prodigy/
 ├── wiki/                              # Project-level Obsidian Wiki knowledge base
 │   ├── index.md                       # Wiki index & learning module map
 │   └── spot_probe_strategy.md          # Ramesh Raskar Spot-Probe Framework reference
+├── outreach/                          # Ecosystem Outreach & Branding Engine
+│   ├── outreach_plan.md               # Master Outreach Plan & Persona Strategy
+│   └── templates/                     # WhatsApp, Email, & LinkedIn Communication Templates
+│       ├── whatsapp_templates.md
+│       ├── email_templates.md
+│       └── linkedin_posts.md
 ├── notebooks/                         # AI Co-working & Prompt Playbooks
 │   └── prompt_playbook.md
 ├── logs/                              # Multi-Agent Suggestion & Critique Logs
@@ -195,4 +201,5 @@ Project PRODIGY invites collaborators across five operational roles to join our 
 - 🧠 [Ramesh Raskar Spot-Probe Strategy](wiki/spot_probe_strategy.md)
 - 📝 [Agent Suggestion Log](logs/agent_suggestions.md)
 - 📌 [Srujana Pathway Reference](references/srujana-pathway.md)
+- 📢 [Ecosystem Outreach & Branding Plan](outreach/outreach_plan.md)
 - 🧰 [Venture Development Skill](.agents/skills/venture-development-frameworks/SKILL.md)

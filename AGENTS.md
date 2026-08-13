@@ -162,6 +162,9 @@ prodigy/
 ├── wiki/                              # Project-level Obsidian Wiki knowledge base
 │   ├── index.md                       # Wiki index & learning module map
 │   └── spot_probe_strategy.md          # Ramesh Raskar Spot-Probe Framework reference
+├── outreach/                          # Ecosystem Outreach & Branding Engine
+│   ├── outreach_plan.md               # Master Outreach Plan & Persona Strategy
+│   └── templates/                     # WhatsApp, Email, & LinkedIn Communication Templates
 ├── notebooks/                         # AI Co-working & Prompt Playbooks
 │   └── prompt_playbook.md             # Curated prompt playbooks for human-AI co-working
 ├── logs/                              # Multi-Agent Suggestion & Critique Logs
