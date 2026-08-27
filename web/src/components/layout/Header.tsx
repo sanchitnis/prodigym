@@ -83,7 +83,7 @@ export const Header: React.FC = () => {
         {/* Right Action Buttons */}
         <div className="hidden sm:flex items-center gap-3">
           <a
-            href="https://github.com/sanchitnis/prodigy"
+            href="https://github.com/sanchitnis/prodigym"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 text-xs text-slate-400 hover:text-white bg-white/5 px-2.5 py-1.5 rounded-lg border border-white/10 transition-colors"
@@ -190,7 +190,7 @@ export const Header: React.FC = () => {
           ))}
           <div className="pt-2 border-t border-white/10 flex gap-2">
             <a
-              href="https://github.com/sanchitnis/prodigy"
+              href="https://github.com/sanchitnis/prodigym"
               target="_blank"
               rel="noopener noreferrer"
               className="flex-1 text-center py-2 bg-white/5 rounded-lg text-xs text-slate-300 border border-white/10"

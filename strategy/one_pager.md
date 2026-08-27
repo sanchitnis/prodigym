@@ -10,7 +10,7 @@ Traditional entry-level software and task-based jobs are vanishing as AI automat
 ## 💡 The Solution: Project PRODIGY
 PRODIGY (**P**ipeline for **R**esearch **O**riented **D**evelopment with **I**ntelligence of **G**lobal **Y**outh) is an open, collaborative ecosystem. We pair ambitious students with industry mentors to build real solutions (in healthcare, agriculture, climate, etc.) using frontier AI tools. 
 
-PRODIGY itself is built and managed using **Agentic Graph Engineering**—the entire project functions as a deep collaboration between human experts and AI agents. The [PRODIGY GitHub repository](https://github.com/sanchitnis/prodigy) is a live case study of this architecture, where humans act as the "boss" of AI agents to plan, track, and execute complex workflows.
+PRODIGY itself is built and managed using **Agentic Graph Engineering**—the entire project functions as a deep collaboration between human experts and AI agents. The [PRODIGY GitHub repository](https://github.com/sanchitnis/prodigym) is a live case study of this architecture, where humans act as the "boss" of AI agents to plan, track, and execute complex workflows.
 
 Students build a portfolio that gets them hired. Mentors get access to top talent. Society gets solutions to hard problems.
 

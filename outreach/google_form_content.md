@@ -18,7 +18,7 @@
 > Whether you're a student, mentor, faculty member, industry leader, or supporter — register below to join our community. Takes under 3 minutes.
 >
 > 🌐 Learn more: https://sanchitnis.github.io/prodigy/
-> 📄 Read our Concept Note: https://github.com/sanchitnis/prodigy/blob/main/strategy/concept-note.md
+> 📄 Read our Concept Note: https://github.com/sanchitnis/prodigym/blob/main/strategy/concept-note.md
 
 ---
 
@@ -390,7 +390,7 @@
 >
 > **In the meantime**:
 > - 🌐 Explore our portal: https://sanchitnis.github.io/prodigy/
-> - 📄 Read the Concept Note: https://github.com/sanchitnis/prodigy/blob/main/strategy/concept-note.md
+> - 📄 Read the Concept Note: https://github.com/sanchitnis/prodigym/blob/main/strategy/concept-note.md
 > - 💬 Questions? Email sanjay.chitnis@gmail.com
 >
 > *Building our common future through Human + Augmented Intelligence.*

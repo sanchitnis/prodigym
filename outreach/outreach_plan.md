@@ -93,5 +93,5 @@ All outreach communication templates are organized into the `outreach/templates/
 
 ### Key Links Included in All Outreach
 - 🌐 **Live Web Portal**: [https://sanchitnis.github.io/prodigy/](https://sanchitnis.github.io/prodigy/)
-- 📄 **Executive Concept Note (GitHub)**: [https://github.com/sanchitnis/prodigy/blob/main/strategy/concept-note.md](https://github.com/sanchitnis/prodigy/blob/main/strategy/concept-note.md)
+- 📄 **Executive Concept Note (GitHub)**: [https://github.com/sanchitnis/prodigym/blob/main/strategy/concept-note.md](https://github.com/sanchitnis/prodigym/blob/main/strategy/concept-note.md)
 - 📋 **Google Form Registration**: Managed directly by Initiative Lead **Dr. Sanjay Chitnis** (`sanjay.chitnis@gmail.com`).

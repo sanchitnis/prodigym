@@ -32,7 +32,7 @@ export const Footer: React.FC = () => {
             </p>
             <div className="flex items-center gap-3 pt-2">
               <a
-                href="https://github.com/sanchitnis/prodigy"
+                href="https://github.com/sanchitnis/prodigym"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="h-8 w-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-slate-300 hover:text-white hover:bg-white/10 transition-colors"
@@ -116,7 +116,7 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <a
-                  href="https://github.com/sanchitnis/prodigy/blob/main/strategy/concept-note.md"
+                  href="https://github.com/sanchitnis/prodigym/blob/main/strategy/concept-note.md"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-cyan-400 transition-colors"
@@ -126,7 +126,7 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <a
-                  href="https://github.com/sanchitnis/prodigy/blob/main/AGENTS.md"
+                  href="https://github.com/sanchitnis/prodigym/blob/main/AGENTS.md"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-cyan-400 transition-colors"

@@ -51,7 +51,7 @@ More importantly, this architecture creates a **Learning Loop for Humans**. By m
 
 ## 6. The PRODIGY Repo: A Live Case Study
 
-The [PRODIGY GitHub Repository](https://github.com/sanchitnis/prodigy) itself is a living example of Agentic Graph Engineering. 
+The [PRODIGY GitHub Repository](https://github.com/sanchitnis/prodigym) itself is a living example of Agentic Graph Engineering. 
 
 If you look at the commit history and file structure (like the `AGENTS.md` file), you will see that this very platform was architected, reviewed, and refined through continuous collaboration between Dr. Sanjay Chitnis (as the HEITL) and various AI agent personas. 
 

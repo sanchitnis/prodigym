@@ -32,7 +32,7 @@ Each participating institute establishes a standardized governance node:
 
 ### Key Links for Review
 - 🌐 **Live Web Portal**: https://sanchitnis.github.io/prodigy/
-- 📄 **Executive Concept Note & Governance Charter**: https://github.com/sanchitnis/prodigy/blob/main/strategy/concept-note.md
+- 📄 **Executive Concept Note & Governance Charter**: https://github.com/sanchitnis/prodigym/blob/main/strategy/concept-note.md
 
 ### Our Specific Ask
 We warmly request a 20-minute exploratory meeting to discuss formalizing **[Institute Name]** as a **PRODIGY Institutional Nodal Hub** and nominating your institution's SPOCs. 
@@ -67,7 +67,7 @@ We invite **[Company Name]** to engage with **Project PRODIGY**—a high-perform
 
 ### Key References
 - 🌐 **Live Web Portal**: https://sanchitnis.github.io/prodigy/
-- 📄 **Executive Concept Note (GitHub)**: https://github.com/sanchitnis/prodigy/blob/main/strategy/concept-note.md
+- 📄 **Executive Concept Note (GitHub)**: https://github.com/sanchitnis/prodigym/blob/main/strategy/concept-note.md
 
 ### Our Specific Ask
 We invite **[Company Name]** to submit 1–2 real-world problem statements and designate an Operational Technical SPOC to guide a dedicated PRODIGY project squad. 
@@ -101,7 +101,7 @@ PRODIGY addresses this imperative through a multi-stakeholder **Co-opetition Mod
 
 ### Key Links
 - 🌐 **Web Portal**: https://sanchitnis.github.io/prodigy/
-- 📄 **Executive Concept Note**: https://github.com/sanchitnis/prodigy/blob/main/strategy/concept-note.md
+- 📄 **Executive Concept Note**: https://github.com/sanchitnis/prodigym/blob/main/strategy/concept-note.md
 
 ### Our Specific Ask
 We request an opportunity to present a formal briefing to your office, seek your strategic guidance on policy alignment, and explore synergies with national R&D grant programs.

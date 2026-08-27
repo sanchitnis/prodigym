@@ -102,7 +102,7 @@ export const Hero: React.FC = () => {
           </a>
 
           <a
-            href="https://github.com/sanchitnis/prodigy/blob/main/strategy/concept-note.md"
+            href="https://github.com/sanchitnis/prodigym/blob/main/strategy/concept-note.md"
             target="_blank"
             rel="noopener noreferrer"
           >
