@@ -1,8 +1,8 @@
 # AGENTS.md: Meta-Venture Agentic Graph Engineering & System Guidelines
 
-> **Agent Identity & Role**: You are an expert AI Venture Orchestrator & Agentic Systems Architect embedded within **Project PRODIGY** (**P**ipeline for **R**esearch **O**riented **D**evelopment with **I**ntelligence of **G**lobal **Y**outh). 
+> **Agent Identity & Role**: You are an expert AI Venture Orchestrator & Agentic Systems Architect embedded within **Project PROdiGYM** (**P**ipeline for **R**esearch **O**riented **D**evelopment with **I**ntelligence of **G**lobal **Y**outh for **M**ankind). 
 > 
-> **Meta-Venture Focus**: The primary directive of this workspace is to orchestrate **PRODIGY itself as a Meta-Venture**—an AI-augmented, collaborative community venture studio designed to spawn, incubate, and scale downstream social and technical ventures.
+> **Meta-Venture & Brain GYM Focus**: The primary directive of this workspace is to orchestrate **PROdiGYM itself as a Meta-Venture and Cognitive Brain GYM**—an AI-augmented, collaborative community venture studio designed to train humans as the **Boss of AI Agents (HEITL)**, build 4 C skills, and hatch downstream social and technical ventures.
 
 ---
 
@@ -24,7 +24,7 @@
 
 ## 📌 Core Mission & Meta-Venture Philosophy
 
-You operate under the **PRODIGY Strategic Triad**:
+You operate under the **PROdiGYM Strategic Triad**:
 $$\mathbf{TALENT} \;\;\bullet\;\; \mathbf{ECOSYSTEM} \;\;\bullet\;\; \mathbf{VENTURES}$$
 
 As an AI agent collaborating in this meta-project, you do not just assist on individual tasks; you participate in **Agentic Graph Engineering** to build the meta-infrastructure, strategy, learning tools, resource pipelines, and community ecosystem that enable global youth and human experts to build high-impact ventures.
@@ -33,7 +33,7 @@ As an AI agent collaborating in this meta-project, you do not just assist on ind
 
 ## 📋 Role-Specific Agent Review Checklists (For Human Prompters & Agent Evaluation)
 
-In Project PRODIGY, the **human prompter** directs specialized AI agent roles to review, critique, and enhance various aspects of the meta-venture. When invoking an agent for a specific task, apply the corresponding role-tailored review checklist:
+In Project PROdiGYM, the **human prompter** directs specialized AI agent roles to review, critique, and enhance various aspects of the meta-venture. When invoking an agent for a specific task, apply the corresponding role-tailored review checklist:
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
@@ -141,17 +141,23 @@ Concrete steps required to execute if approved by human leads.
 
 ### Workspace Directory Layout
 ```
-prodigy/
+prodigym/
+├── web/                               # PROdiGYM Web Application (Vercel App)
+│   ├── src/                           # React 18 + TypeScript + Tailwind source code
+│   │   ├── components/                # UI primitives, layout, and home sections
+│   │   ├── contexts/                  # AuthContext (Google OAuth via Supabase)
+│   │   ├── lib/                       # Supabase client & utility functions
+│   │   ├── pages/                     # Index, AuthCallback, MemberPortal, NotFound
+│   │   └── types/                     # Database types and role interfaces
+│   ├── package.json                   # Web app dependencies & build scripts
+│   ├── vite.config.ts                 # Vite SWC build configuration
+│   ├── tailwind.config.ts             # Tailwind CSS tokens & glassmorphism
+│   ├── vercel.json                    # Vercel SPA routing and security headers
+│   └── index.html                     # Web entry point
+├── supabase/                          # Backend Database & Auth
+│   └── schema.sql                     # PostgreSQL schema, RLS policies & auth triggers
 ├── AGENTS.md                          # Meta-Venture Agentic Graph Engineering guidelines (this file)
 ├── README.md                          # Main contributor guide & repository index
-├── index.html                         # GitHub Pages Web Landing Portal
-├── assets/                            # Scalable Web App Assets Directory
-│   ├── css/
-│   │   └── style.css                  # Custom design system & glassmorphism styles
-│   ├── js/
-│   │   └── main.js                    # Dynamic JSON schema loader & interactive client logic
-│   └── images/
-│       └── prodigy-logo.svg           # Vector brand assets & diagrams
 ├── strategy/                          # Strategy & Global Learnings Engine
 │   ├── concept-note.md                # Executive Concept Note & Governance Charter
 │   └── strategy_and_learnings.md      # Learnings from 12 global models & multi-agent prompt protocols
@@ -161,7 +167,7 @@ prodigy/
 │   └── standups_and_contributions.md  # Daily standup log & contribution journal (Humans & AI Agents)
 ├── wiki/                              # Project-level Obsidian Wiki knowledge base
 │   ├── index.md                       # Wiki index & learning module map
-│   └── spot_probe_strategy.md          # Ramesh Raskar Spot-Probe Framework reference
+│   └── spot_probe_strategy.md         # Ramesh Raskar Spot-Probe Framework reference
 ├── outreach/                          # Ecosystem Outreach & Branding Engine
 │   ├── outreach_plan.md               # Master Outreach Plan & Persona Strategy
 │   └── templates/                     # WhatsApp, Email, & LinkedIn Communication Templates
@@ -169,11 +175,10 @@ prodigy/
 │   └── prompt_playbook.md             # Curated prompt playbooks for human-AI co-working
 ├── logs/                              # Multi-Agent Suggestion & Critique Logs
 │   └── agent_suggestions.md           # Agent suggestion log for human review
-└── data/                              # Dynamic showcase JSON schemas (Backend Database Foundation)
-    ├── projects.json
-    ├── mentors.json
-    ├── collaborators.json
-    └── leaderboard.json
+└── docs/                              # Detailed Guides & Deployment Playbooks
+    ├── vercel_deployment_guide.md     # Step-by-step Vercel deployment guide
+    ├── supabase_and_google_auth_setup.md # Supabase & Google OAuth setup guide
+    └── getting_started_guide.md       # Onboarding guide
 ```
 
 ### File Naming & Linking Rules

@@ -175,3 +175,27 @@ Linear outreach is exhausting and unscalable. Incorporating referral loops and p
 - [ ] **Issue 25 (90-Day Playbook)**: Core team to design and commit to a 90-day launch playbook focused on a single beachhead.
 - [ ] **Issue 22 (Financial Bridge)**: Update strategy with Year 1 bridge funding targets (cloud credits, institutional grants).
 - [ ] **Issue 21 (Growth Flywheel)**: Design portfolio sharing templates and referral mechanisms.
+
+---
+
+### [SUGGESTION-2026-08-27-008] PROdiGYM Rebranding, Brain GYM & Vercel Web Application with Supabase & Google Auth
+- **Timestamp**: 2026-08-27 T13:20:00+05:30
+- **Agent / Source Model**: Gemini 3.7 Flash (Antigravity Assistant)
+- **Target Workstream**: Web Architecture, Branding & Ecosystem Engineering
+- **Target File(s)**: `web/*`, `supabase/schema.sql`, `docs/vercel_deployment_guide.md`, `docs/supabase_and_google_auth_setup.md`, `README.md`, `AGENTS.md`
+- **Status**: IMPLEMENTED
+
+#### 1. Core Proposal
+Rebrand project to **PROdiGYM** (**P**ipeline for **R**esearch **O**riented **D**evelopment with **I**ntelligence of **G**lobal **Y**outh for **M**ankind), highlighting the cognitive **Brain GYM** for 4 C human skills and mastering the new capability of being a **Human Expert in the Loop (HEITL) — BOSS of AI agents**. Structure the web application cleanly into `web/` adopting the Vite + React 18 + TypeScript + Tailwind CSS + Supabase + Google OAuth stack and design from `reva-ai-hub-web` for immediate Vercel deployment.
+
+#### 2. Rationale & Benchmark Alignment
+Separates the public-facing web app (`web/`) from repository strategy/wiki/planning charters, provides zero-cold-start global CDN hosting on Vercel, ensures robust PostgreSQL data persistence with Supabase RLS, and enables 1-click Google OAuth authentication for students, mentors, and academic hub leads.
+
+#### 3. Action Items / Implementation Plan
+- [x] Create `web/` directory with Vite + React 18 + TypeScript + Tailwind CSS + shadcn/ui components.
+- [x] Integrate Supabase singleton client and Google OAuth provider in `web/src/contexts/AuthContext.tsx`.
+- [x] Build `supabase/schema.sql` with users, inquiries, subscribers, projects, leaderboard, and hub nodes.
+- [x] Create `web/vercel.json` and root `vercel.json` with security headers, caching, and SPA rewrites.
+- [x] Create comprehensive guides in `docs/vercel_deployment_guide.md` and `docs/supabase_and_google_auth_setup.md`.
+- [x] Update `README.md` and `AGENTS.md` with PROdiGYM branding and directory architecture.
+
