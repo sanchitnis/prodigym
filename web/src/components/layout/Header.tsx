@@ -40,7 +40,7 @@ export const Header: React.FC = () => {
     { label: "Solutions & IP", href: "/#solutions", icon: Sparkles },
     { label: "Leaderboard", href: "/#leaderboard", icon: Trophy },
     { label: "Governance", href: "/#governance", icon: Users },
-    { label: "Docs", href: "/#docs", icon: BookOpen },
+    { label: "Wiki", href: "https://github.com/sanchitnis/prodigym/blob/main/wiki/index.md", icon: BookOpen, external: true },
   ];
 
   return (
@@ -67,6 +67,8 @@ export const Header: React.FC = () => {
               <a
                 key={item.label}
                 href={item.href}
+                target={item.external ? "_blank" : undefined}
+                rel={item.external ? "noopener noreferrer" : undefined}
                 className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
                   item.highlight
                     ? "text-cyan-300 bg-cyan-500/10 border border-cyan-500/20 hover:bg-cyan-500/20"
@@ -181,6 +183,8 @@ export const Header: React.FC = () => {
             <a
               key={item.label}
               href={item.href}
+              target={item.external ? "_blank" : undefined}
+              rel={item.external ? "noopener noreferrer" : undefined}
               onClick={() => setMobileMenuOpen(false)}
               className="flex items-center gap-2 px-3 py-2 rounded-lg text-sm text-slate-300 hover:text-white hover:bg-white/5"
             >

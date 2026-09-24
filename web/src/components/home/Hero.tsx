@@ -41,7 +41,7 @@ export const Hero: React.FC = () => {
         {/* Subtitle */}
         <p className="text-base sm:text-lg md:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed mb-10 font-normal">
           Follow your dreams and build our common future through projects utilizing{" "}
-          <strong className="text-white">Human + Augmented Intelligence</strong> — Empowering students & faculty to master 4 C human skills, secure marquee internships, create patentable IP, and orchestrate AI agents with{" "}
+          <strong className="text-white">Human + Augmented Intelligence</strong> — Empowering students & faculty to master human centric future skill, secure marquee internships, create patentable IP, and orchestrate AI agents with{" "}
           <strong className="text-cyan-300">you as the BOSS of agents</strong>.
         </p>
 
