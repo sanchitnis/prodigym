@@ -1,4 +1,4 @@
-﻿# PROdiGYM - Readiness for Abundant Intelligence
+# PROdiGYM - Readiness for Abundant Intelligence
 
 > **Preparing Educational Institutions, the Academic Community, and Thereby Society for Abundant Intelligence**
 
@@ -155,17 +155,44 @@ Every faculty member and institutional department translates T.R.A.C.K. into rea
 ---
 
 ## 🌟 The Srujana Pathway (For Learners of All Types)
-Complementing T.R.A.C.K., the **Srujana Pathway** prepares learners of all backgrounds to transition from passive consumers into creative innovators and autonomous system orchestrators progress through 4 stages:
-1. **Stage 1 (Foundational)**: Complete 3 micro-challenges to prove you can use AI to spot a problem and build a quick prototype.
-2. **Stage 2 (Internship/Co-Op)**: Join a team of 3-5 students and an industry mentor to build a solution for a real problem statement.
-3. **Stage 3 (R&D / IP)**: Polish the solution, pass an Expert Jury review (HEITL), and potentially publish research or file patents.
-4. **Stage 4 (Incubation)**: Launch the project as a startup, or leverage your incredible portfolio to land a top-tier role.
 
-We will follow four core philosophies:
-1. **Experiential Learning**: Direct engagement in real-world challenges from day one.
-2. **HUman expert orchestrating AI Agents**: Leveraging AI as a creative partner, cognitive amplifier, and intellectual sparring partner.
-3. **Focus on Human-Centric Future Skills**: Critical Thinking, Creativity, Collaboration, and Communication.
-4. **AI-Era Enhanced Outcomes**: Tangible digital portfolios, published whitepapers, verified GitHub repositories, and venture spin-offs.
+Complementing T.R.A.C.K., the **Srujana Pathway** enables learners of all backgrounds—students, lifelong learners, educators, and innovators—to transition from passive consumers into creative innovators and autonomous system orchestrators across 4 progressive stages:
+
+1. **Stage 1 (Foundational Skills & Readiness)**: Complete micro-challenges and STEAM sprints to spot problems, build quick prototypes, and prove AI co-working capability.
+2. **Stage 2 (Practical Exposure & Internships)**: Join cross-functional teams with industry and academic mentors to solve real-world problems with production workflows.
+3. **Stage 3 (R&D, Patents & Deep IP)**: Advance rigorous research, pass Expert Jury red-team reviews (HEITL), and submit patent filings or peer-reviewed preprints.
+4. **Stage 4 (Enterprise Incubation & Spin-Offs)**: Spin out venture-backed startups, license intellectual property, or leverage verified artifact portfolios for marquee career placement.
+
+### Four Core Learner Archetypes
+- **Students & Graduates**: Undergraduates and postgraduates building digital portfolios and future-ready careers.
+- **Lifelong Learners**: Mid-career professionals reskilling for agent orchestration, systems thinking, and critical judgment.
+- **Educators & Mentors**: Faculty mastering inquiry-driven Socratic facilitation, flipped labs, and living curricula.
+- **Deep Tech Innovators**: Early-stage builders creating patentable IP, open science assets, and regional ventures.
+
+### Four Foundational Principles
+1. **Experiential Learning**: Direct engagement with authentic, ambiguous real-world challenges from day one.
+2. **Human Expert Orchestrating AI Agents (HEITL)**: Utilizing AI as a creative partner and cognitive amplifier while human judgment retains final moral and strategic ownership.
+3. **Human-Centric Future Skills (The 4 Cs)**: Critical Thinking, Creativity, Collaboration, and Communication elevated as routine execution automates.
+4. **AI-Era Verified Outcomes**: Measurable impact via durable markdown artifacts, public Git repos, and live deployments.
+
+---
+
+## 🌐 Web Platform & Interactive Portal
+
+PROdiGYM includes an interactive web application showcasing the frameworks, pathways, and active projects:
+
+- **React + Vite Web App (`web/`)**: Built with Tailwind CSS, Lucide icons, and Radix UI components, featuring interactive explorers for:
+  - The **T.R.A.C.K. Framework** matrix and dynamic pillar deep dives.
+  - The **0-Indexed Artifact Pipeline** visualizer.
+  - The **Srujana Pathway** 4-stage interactive journey.
+  - The **Ecosystem Call & Persona Registration** board.
+- **Quickstart Local Development**:
+  ```bash
+  cd web
+  npm install
+  npm run dev
+  ```
+- **Static Portal (`index.html`)**: A standalone, zero-dependency portal for instant preview and lightweight distribution.
 
 ---
 
@@ -183,10 +210,13 @@ prodigym/
 │   ├── track_framework.md # The T.R.A.C.K. Framework deep dive
 │   └── index.md         # Comprehensive Wiki Index
 ├── strategy/            # Strategic Concept Notes & Institutional Charters
-│   └── concept-note.md  # Comprehensive Strategic Concept Note
+│   ├── concept-note.md  # Comprehensive Strategic Concept Note
+│   └── one_pager.md     # Executive Summary One-Pager
 ├── .agents/skills/      # AI Agent Skills (HEITL governance, project engine, peer review)
-├── web/                 # React Web Application (Vercel App)
-├── supabase/            # Backend Database & Auth
+├── web/                 # Interactive React + Vite Web Application
+├── index.html           # Standalone single-file ecosystem portal
+├── ai-native-project-playbook.md # Operational guide for human + AI pairing
+├── supabase/            # Backend Database & Auth configuration
 ├── planning/            # Operational Task Boards & Meta-Venture Plans
 ├── outreach/            # Ecosystem Communication Templates
 └── docs/                # Deployment & Architecture Guides
@@ -196,7 +226,7 @@ prodigym/
 
 ## 📋 The 0-Indexed AI-Native Project Lifecycle (`projects/`)
 
-All collaborative projects in PROdiGYM are structured with **sequential numeric numbering (0 onwards)** so that files appear in strict chronological creation and concept dependency order in all directory listings:
+All collaborative projects in PROdiGYM are structured with **sequential numeric numbering (0 onwards)** so that files appear in strict chronological creation and concept dependency order across file browsers, terminals, and IDEs:
 
 ```text
 projects/<project-slug>/
@@ -209,4 +239,8 @@ projects/<project-slug>/
 └── 6_feedback.md    # Stage 6: Iterate (field outcomes, stakeholder impact, next cycle triggers)
 ```
 
-To launch a new project, copy `projects/_template-project/` to `projects/<your-project-slug>/` and start by establishing `0_context.md` and `1_intent.md`. See [GETTING-STARTED.md](./GETTING-STARTED.md) and [CONTRIBUTING.md](./CONTRIBUTING.md) for full onboarding details.
+To launch a new project:
+1. Copy `projects/_template-project/` to `projects/<your-project-slug>/`.
+2. Seed `0_context.md` with background facts and domain realities.
+3. Collaborate with your AI agent to establish `1_intent.md` and lock `2_spec.md`.
+4. Review the full methodology in [ai-native-project-playbook.md](./ai-native-project-playbook.md), [GETTING-STARTED.md](./GETTING-STARTED.md), and [CONTRIBUTING.md](./CONTRIBUTING.md).
