@@ -1,4 +1,4 @@
-🚀 *Boss Your AI Agents & Build High-Impact Projects with PRODIGY!*
+🚀 *Orchestrate AI Agents & Build High-Impact Projects with PRODIGY!*
 
 Hey Student Leads & Innovators! 👋
 
@@ -6,7 +6,7 @@ Are you relying on traditional coding classes while AI automates routine tech ta
 
 **How are you preparing yourself to lead as a future citizen in the AGI Era?**
 
-**Project PRODIGY** is building a global platform where student teams run real-world projects—from micro-learning tasks and hackathons to patentable IP and commercial startup spinoffs—with **you as the boss of AI agents**.
+**Project PRODIGY** is building a global platform where student teams run real-world projects—from micro-learning tasks and hackathons to patentable IP and commercial startup spinoffs—with **you as the Human Expert Orchestrator of AI Agents**.
 
 🎯 **What You Get**:
 - Master human-centered 4 C skills & AI co-working tools.

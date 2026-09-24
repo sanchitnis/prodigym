@@ -1,4 +1,4 @@
-﻿import React from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import {
   Dumbbell,
@@ -50,7 +50,7 @@ export const Hero: React.FC = () => {
           <strong className="text-cyan-300">T.R.A.C.K. Framework</strong>, the{" "}
           <strong className="text-purple-300">Srujana Pathway</strong>, and an{" "}
           <strong className="text-white">AI-Native Project Engine</strong> with{" "}
-          <strong className="text-cyan-300">you as the BOSS of AI agents (HEITL)</strong>.
+          <strong className="text-cyan-300">you as the Human Expert Orchestrator of AI Agents</strong>.
         </p>
 
         {/* Cascading Transformation 3-Tier Banner */}

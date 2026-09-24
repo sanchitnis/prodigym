@@ -169,7 +169,10 @@ export const ContactAndJoin: React.FC = () => {
               <h3 className="font-heading text-xl font-bold text-white">Send Direct Inquiry</h3>
             </div>
             <p className="text-xs text-slate-400 mb-6 leading-relaxed">
-              Have a question about joining cohorts, becoming an institutional hub, or sponsoring R&D probes? Send us a message directly.
+              Have a question about joining cohorts, becoming an institutional hub, or sponsoring R&D probes? Send us a message directly or email us at{" "}
+              <a href="mailto:info.prodigym@gmail.com" className="text-cyan-400 hover:underline font-mono">
+                info.prodigym@gmail.com
+              </a>.
             </p>
 
             {submittedMessage ? (
@@ -288,8 +291,9 @@ export const ContactAndJoin: React.FC = () => {
                   <ExternalLink className="h-3.5 w-3.5" />
                 </Button>
               </a>
-              <div className="mt-3 text-[11px] text-slate-400">
-                Directly overseen by <strong className="text-slate-200">Dr. Sanjay Chitnis</strong> (<code>sanjay.chitnis@gmail.com</code>).
+              <div className="mt-3 text-[11px] text-slate-400 space-y-1">
+                <div>Directly overseen by <strong className="text-slate-200">Dr. Sanjay Chitnis</strong> (<code>sanjay.chitnis@gmail.com</code>).</div>
+                <div>General & ecosystem queries: <a href="mailto:info.prodigym@gmail.com" className="text-cyan-400 hover:underline font-mono">info.prodigym@gmail.com</a></div>
               </div>
             </div>
 

@@ -18,9 +18,9 @@ We have moved past simple "prompt engineering" (asking a single chatbot a questi
 
 In this model, you don't prompt; you *orchestrate*.
 
-## 2. The Human Expert in the Loop (HEITL) as the "Boss"
+## 2. The Human Expert in the Loop (HEITL) as the Orchestrator
 
-In PRODIGY, the AI does not replace the human. **Using AI smartly is critical to avoid "brain rot."** The first focus should always be on how much the human user has learned through the process. The human acts as the **Human Expert in the Loop (HEITL)**—the "Boss" of the AI agents.
+In PRODIGY, the AI does not replace the human. **Using AI smartly is critical to avoid "brain rot."** The first focus should always be on how much the human user has learned through the process. The human acts as the **Human Expert in the Loop (HEITL)**—the Human Expert Orchestrator of AI Agents.
 
 **Your role as the HEITL:**
 1. **Define the Goal**: Set the strategic direction and provide context (the "graph").
@@ -47,7 +47,7 @@ Because current AI agents have capability limits and can hallucinate, PRODIGY en
 
 Agents are used not just for coding, but for project management. They create and update tracking files to manage progress.
 
-More importantly, this architecture creates a **Learning Loop for Humans**. By managing AI agents, students and faculty are forced to understand concepts deeply enough to verify the AI's work. You cannot be the "boss" of an AI writing a React component unless you understand how React works well enough to review it.
+More importantly, this architecture creates a **Learning Loop for Humans**. By managing AI agents, students and faculty are forced to understand concepts deeply enough to verify the AI's work. You cannot be the human expert orchestrator of an AI writing a React component unless you understand how React works well enough to review it.
 
 ## 6. The PRODIGY Repo: A Live Case Study
 

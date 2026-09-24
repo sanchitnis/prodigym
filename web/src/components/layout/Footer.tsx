@@ -28,7 +28,7 @@ export const Footer: React.FC = () => {
               <strong className="text-cyan-400">M</strong>ankind.
             </p>
             <p className="text-xs leading-relaxed text-slate-400">
-              An AI-augmented Meta-Venture Studio and cognitive <strong className="text-cyan-300">Brain GYM</strong> empowering learners and faculty to master human-centric skills (4 Cs) and lead as the <strong className="text-indigo-300">Boss of AI Agents (HEITL)</strong>.
+              An AI-augmented Meta-Venture Studio and cognitive <strong className="text-cyan-300">Brain GYM</strong> empowering learners and faculty to master human-centric skills (4 Cs) and lead as the <strong className="text-indigo-300">Human Expert Orchestrator of AI Agents</strong>.
             </p>
             <div className="flex items-center gap-3 pt-2">
               <a
@@ -50,9 +50,10 @@ export const Footer: React.FC = () => {
                 <Linkedin className="h-4 w-4" />
               </a>
               <a
-                href="mailto:sanjay.chitnis@gmail.com"
+                href="mailto:info.prodigym@gmail.com"
                 className="h-8 w-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-slate-300 hover:text-white hover:bg-white/10 transition-colors"
-                aria-label="Email"
+                aria-label="Email Queries: info.prodigym@gmail.com"
+                title="Queries: info.prodigym@gmail.com"
               >
                 <Mail className="h-4 w-4" />
               </a>
@@ -112,6 +113,11 @@ export const Footer: React.FC = () => {
               <li>
                 <a href="#contact" className="hover:text-cyan-400 transition-colors">
                   Audience Inquiries & Registration
+                </a>
+              </li>
+              <li>
+                <a href="mailto:info.prodigym@gmail.com" className="hover:text-cyan-400 transition-colors">
+                  Queries: info.prodigym@gmail.com
                 </a>
               </li>
               <li>

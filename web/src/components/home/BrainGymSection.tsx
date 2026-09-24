@@ -75,11 +75,11 @@ export const BrainGymSection: React.FC = () => {
           <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
             In the AGI era, passive AI consumption causes cognitive atrophy. PROdiGYM is a high-intensity{" "}
             <strong className="text-white">Brain GYM</strong> designed to build human-centric cognitive muscle and train you to be the authoritative{" "}
-            <strong className="text-cyan-300">BOSS of AI Agents (HEITL)</strong>.
+            <strong className="text-cyan-300">Human Expert Orchestrator of AI Agents</strong>.
           </p>
         </div>
 
-        {/* Highlight Feature Card: BOSS of AI Agents (HEITL) */}
+        {/* Highlight Feature Card: Human Expert Orchestrator of AI Agents */}
         <div className="max-w-5xl mx-auto rounded-2xl border border-cyan-500/30 bg-gradient-to-r from-slate-900/90 via-indigo-950/40 to-slate-900/90 p-6 sm:p-8 backdrop-blur-xl shadow-2xl mb-12 relative overflow-hidden">
           <div className="absolute top-0 right-0 h-40 w-40 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none" />
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
@@ -88,10 +88,10 @@ export const BrainGymSection: React.FC = () => {
                 ⭐ The Core Superpower
               </Badge>
               <h3 className="font-heading text-2xl sm:text-3xl font-bold text-white">
-                Human Expert In The Loop (HEITL) — Boss of AI Agents
+                Human Expert Orchestrator of AI Agents
               </h3>
               <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
-                You are not a passive prompt typist; you are the <strong>architect and manager of autonomous AI agent guilds</strong>. You assign subagent roles (strategists, coders, red-team auditors), formulate verification criteria, catch hallucinations, and take 100% human accountability for the mission outcome.
+                You are not a passive prompt typist; you are the <strong>architect and orchestrator of autonomous AI agent guilds</strong>. You assign subagent roles (strategists, coders, red-team auditors), formulate verification criteria, catch hallucinations, and take 100% human accountability for the mission outcome.
               </p>
               <ul className="space-y-1.5 text-xs text-slate-300 pt-2">
                 <li className="flex items-center gap-2">
@@ -119,7 +119,7 @@ export const BrainGymSection: React.FC = () => {
               </div>
               <div className="space-y-2 text-xs font-mono">
                 <div className="p-2 rounded bg-white/5 text-slate-300">
-                  <span className="text-cyan-400 font-bold">1. Human Boss:</span> Deconstructs prompt & sets SMI goals
+                  <span className="text-cyan-400 font-bold">1. Human Orchestrator:</span> Deconstructs prompt & sets SMI goals
                 </div>
                 <div className="p-2 rounded bg-white/5 text-slate-300">
                   <span className="text-purple-400 font-bold">2. Agent Fleet:</span> Rapid SPOT-PROBE exploration

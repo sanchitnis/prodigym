@@ -43,7 +43,7 @@ $$\mathbf{TALENT} \;\;\bullet\;\; \mathbf{ECOSYSTEM} \;\;\bullet\;\; \mathbf{VEN
 | **🏢 Corporate CTOs & VP R&D Leads** | Executive Email & LinkedIn | Submit real-world problem statements, sponsor Stage 3 R&D probes, host paid physical Co-Op/Internship programs, and engage in outcome-based consulting. |
 | **🧙‍♂️ Mentors & STEAM+ Domain Experts** | LinkedIn & Professional Communities | Join the **5-Tier Mentorship Network** (Peer, Faculty, CTO, Domain Expert, Strategic Advisor) to guide student teams and conduct Expert Jury HEITL reviews. |
 | **🏛️ Government & R&D Liaisons** | Policy & Government Briefings | Align national R&D schemes (DST, MeitY, NITI Aayog, BIRAC, iDEX), provide sovereign AI policy guidance, and support regional hub expansion. |
-| **🤝 Global Youth, Students & Founders** | WhatsApp, LinkedIn & Student Fests | Join Stage 1 & 2 project sprints, participate in hackathons/Learnathons, build real-world portfolios, and lead student clubs with **you as the boss of AI agents**. |
+| **🤝 Global Youth, Students & Founders** | WhatsApp, LinkedIn & Student Fests | Join Stage 1 & 2 project sprints, participate in hackathons/Learnathons, build real-world portfolios, and lead student clubs with **you as the Human Expert Orchestrator of AI Agents**. |
 
 ---
 

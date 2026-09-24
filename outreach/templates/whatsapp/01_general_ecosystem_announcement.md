@@ -10,7 +10,7 @@ We invite you to explore **Project PRODIGY** (**P**ipeline for **R**esearch **O*
 
 ✨ **Key Highlights**:
 - **Srujana 4-Stage Pathway**: Embedding hands-on R&D into STEAM+ curricula (Science & Maths, Technology & Engineering, Education, Arts & Humanities, Management & Admin).
-- **Human-Centric Mastery**: Cultivating 4 C skills (Critical Thinking, Communication, Collaboration, Creativity) with *you as the boss of AI agents*.
+- **Human-Centric Mastery**: Cultivating 4 C skills (Critical Thinking, Communication, Collaboration, Creativity) with *you as the Human Expert Orchestrator of AI Agents*.
 - **Co-opetition Framework**: Cooperating on pre-competitive R&D & compute while competing in market venture hatching.
 
 🌐 **Explore Live Portal**: https://sanchitnis.github.io/prodigy/  

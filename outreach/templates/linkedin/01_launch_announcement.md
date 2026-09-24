@@ -10,7 +10,7 @@ Today, we are thrilled to introduce **Project PRODIGY** (**P**ipeline for **R**e
 
 ### 🌟 What Makes PRODIGY Unique?
 1. **The Srujana 4-Stage Pathway**: Integrating flexible hands-on R&D into STEAM+ curricula (Science & Maths, Technology & Engineering, Education, Arts & Humanities, Management & Admin).
-2. **Human-Centric Mastery**: Prioritizing the **4 Cs** (Critical Thinking, Communication, Collaboration, Creativity), personal agency, and self-regulation with *you as the boss of AI agents*.
+2. **Human-Centric Mastery**: Prioritizing the **4 Cs** (Critical Thinking, Communication, Collaboration, Creativity), personal agency, and self-regulation with *you as the Human Expert Orchestrator of AI Agents*.
 3. **The Co-opetition Model**: Cooperating in pre-competitive foundation models & compute pooling (inspired conceptually by India's Amul movement), while competing in downstream venture hatching.
 4. **Diverse Leadership Pathways**: Preparing graduates for high-impact leadership roles across Public Service & Governance (DPI), Sovereign Defense (DefenseTech/SpaceTech), Social Enterprises, Academic R&D, and Commercial Startups.
 

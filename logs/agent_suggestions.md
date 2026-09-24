@@ -186,7 +186,7 @@ Linear outreach is exhausting and unscalable. Incorporating referral loops and p
 - **Status**: IMPLEMENTED
 
 #### 1. Core Proposal
-Rebrand project to **PROdiGYM** (**P**ipeline for **R**esearch **O**riented **D**evelopment with **I**ntelligence of **G**lobal **Y**outh for **M**ankind), highlighting the cognitive **Brain GYM** for 4 C human skills and mastering the new capability of being a **Human Expert in the Loop (HEITL) — BOSS of AI agents**. Structure the web application cleanly into `web/` adopting the Vite + React 18 + TypeScript + Tailwind CSS + Supabase + Google OAuth stack and design from `reva-ai-hub-web` for immediate Vercel deployment.
+Rebrand project to **PROdiGYM** (**P**ipeline for **R**esearch **O**riented **D**evelopment with **I**ntelligence of **G**lobal **Y**outh for **M**ankind), highlighting the cognitive **Brain GYM** for 4 C human skills and mastering the new capability of being a **Human Expert in the Loop (HEITL) — Human Expert Orchestrator of AI Agents**. Structure the web application cleanly into `web/` adopting the Vite + React 18 + TypeScript + Tailwind CSS + Supabase + Google OAuth stack and design from `reva-ai-hub-web` for immediate Vercel deployment.
 
 #### 2. Rationale & Benchmark Alignment
 Separates the public-facing web app (`web/`) from repository strategy/wiki/planning charters, provides zero-cold-start global CDN hosting on Vercel, ensures robust PostgreSQL data persistence with Supabase RLS, and enables 1-click Google OAuth authentication for students, mentors, and academic hub leads.

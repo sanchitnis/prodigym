@@ -104,7 +104,7 @@ Welcome to the PRODIGY Project Catalog. These are real, active projects looking 
 **Srujana Stage**: Stage 2 (Internal Tooling)  
 
 **The Problem**: Faculty spend hundreds of hours manually compiling data, mapping outcomes, and generating reports for NAAC/NBA accreditation instead of focusing on teaching and research.  
-**The Solution**: An AI-based automation system where the faculty acts as the "Human Expert in the Loop" (HEITL) and boss of agents. The system ingests raw academic data and auto-generates accreditation-ready documents.  
+**The Solution**: An AI-based automation system where the faculty acts as the Human Expert Orchestrator of AI Agents. The system ingests raw academic data and auto-generates accreditation-ready documents.  
 
 - **Mentor**: [Faculty Champion Needed]
 - **Current Team**: 0 Students / 0 Faculty (Looking for co-builders)
