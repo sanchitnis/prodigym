@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import {
   GraduationCap,
   Briefcase,
@@ -8,18 +8,27 @@ import {
   Bot,
   HeartHandshake,
   Trophy,
+  Users,
+  Compass,
 } from "lucide-react";
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
+import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
 export const PathwaySection: React.FC = () => {
+  const learnerTypes = [
+    { label: "Students", desc: "Undergraduate & postgraduate learners building portfolios and marquee AI careers." },
+    { label: "Lifelong Learners", desc: "Professionals reskilling for autonomous agent orchestration & judgment." },
+    { label: "Educators", desc: "Faculty adopting inquiry-based Socratic mentoring & living curricula." },
+    { label: "Innovators", desc: "Early-stage builders creating patentable IP and applied venture spin-offs." },
+  ];
+
   const stages = [
     {
       stage: "STAGE 1",
       title: "Foundational Skills & Readiness",
       icon: GraduationCap,
       badge: "stage1" as const,
-      desc: "Enhanced STEAM curricula, student club activities, self-paced learning, and fundamental technical/AI capabilities for internship readiness.",
+      desc: "Enhanced STEAM curricula, student club activities, self-paced learning, and fundamental technical/AI capabilities for internship & research readiness.",
       mentoring: "Self-Directed & Guided Peer Pods",
       color: "border-blue-500/30",
     },
@@ -28,7 +37,7 @@ export const PathwaySection: React.FC = () => {
       title: "Practical Exposure & Internships",
       icon: Briefcase,
       badge: "stage2" as const,
-      desc: "Industry-mentored projects connecting learners with corporate partners to solve real-world problems with production workflows.",
+      desc: "Industry-mentored projects connecting learners with corporate & ecosystem partners to solve real-world problems with production workflows.",
       mentoring: "Industry Workflow & Faculty Guided",
       color: "border-indigo-500/30",
     },
@@ -62,13 +71,13 @@ export const PathwaySection: React.FC = () => {
     {
       title: "II. Augmented by AI",
       icon: Bot,
-      desc: "Using AI smartly is critical to avoid 'brain rot.' The first focus is on how much the learner has grown. The human user (HEITL) owns the final output.",
+      desc: "Using AI smartly is critical to avoid cognitive atrophy. The learner grows in judgment while human-in-the-loop (HEITL) owns the final deliverable.",
       color: "text-indigo-400 bg-indigo-500/10",
     },
     {
       title: "III. Human-Centric Skills",
       icon: HeartHandshake,
-      desc: "Placing a premium on critical thinking, ethics, emotional intelligence, leadership, collaboration, and communication (the 4 Cs) as routine coding automates.",
+      desc: "Premium on critical thinking, ethics, emotional intelligence, leadership, collaboration, and communication (the 4 Cs) as routine coding automates.",
       color: "text-purple-400 bg-purple-500/10",
     },
     {
@@ -80,19 +89,32 @@ export const PathwaySection: React.FC = () => {
   ];
 
   return (
-    <section id="pathway" className="py-20 bg-slate-900/40 relative">
+    <section id="pathway" className="py-24 bg-slate-900/40 relative">
       <div className="container mx-auto px-4 sm:px-6">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 rounded-full border border-purple-500/30 bg-purple-500/10 px-3.5 py-1 text-xs font-semibold text-purple-300 mb-3">
-            <span>Mentoring & Growth Engine</span>
+          <div className="inline-flex items-center gap-2 rounded-full border border-purple-500/30 bg-purple-500/10 px-3.5 py-1 text-xs font-semibold text-purple-300 mb-4 backdrop-blur-md">
+            <Compass className="h-3.5 w-3.5 text-purple-400" />
+            <span>The Learner Transformation Journey</span>
           </div>
-          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-extrabold text-white tracking-tight mb-4">
-            The Srujana 4-Stage Pathway
+          <h2 className="font-heading text-3xl sm:text-5xl font-extrabold text-white tracking-tight mb-4 leading-tight">
+            The <span className="bg-gradient-to-r from-purple-400 via-pink-300 to-cyan-400 bg-clip-text text-transparent">Srujana Pathway</span> for All Learners
           </h2>
           <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
-            A flexible developmental timeline integrating academic learning, industry exposure, deep R&D, and enterprise incubation.
+            An experiential developmental trajectory enabling learners of all backgrounds—students, lifelong learners, professionals, and educators—to transition from passive consumers into creative innovators and autonomous system orchestrators.
           </p>
+
+          {/* Learner Archetypes Pills */}
+          <div className="flex flex-wrap items-center justify-center gap-2 mt-6">
+            {learnerTypes.map((t) => (
+              <span
+                key={t.label}
+                className="px-3 py-1 rounded-full text-xs font-medium bg-white/5 border border-white/10 text-slate-300"
+              >
+                <strong className="text-white">{t.label}:</strong> {t.desc.split(" ")[0]} {t.desc.split(" ")[1]}
+              </span>
+            ))}
+          </div>
         </div>
 
         {/* 4-Stage Timeline Cards */}

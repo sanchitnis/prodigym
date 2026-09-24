@@ -1,6 +1,8 @@
-import React from "react";
+﻿import React from "react";
 import { Layout } from "@/components/layout/Layout";
 import { Hero } from "@/components/home/Hero";
+import { TrackSection } from "@/components/home/TrackSection";
+import { ProjectsSection } from "@/components/home/ProjectsSection";
 import { BrainGymSection } from "@/components/home/BrainGymSection";
 import { PathwaySection } from "@/components/home/PathwaySection";
 import { SolutionsShowcase } from "@/components/home/SolutionsShowcase";
@@ -13,6 +15,8 @@ export const Index: React.FC = () => {
   return (
     <Layout>
       <Hero />
+      <TrackSection />
+      <ProjectsSection />
       <BrainGymSection />
       <PathwaySection />
       <SolutionsShowcase />

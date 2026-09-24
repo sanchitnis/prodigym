@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { Link } from "react-router-dom";
 import {
   Dumbbell,
@@ -9,6 +9,7 @@ import {
   Users,
   Target,
   Zap,
+  Layers,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -23,8 +24,8 @@ export const Hero: React.FC = () => {
       <div className="container mx-auto px-4 sm:px-6 text-center">
         {/* Top Badges */}
         <div className="inline-flex items-center gap-2 rounded-full border border-cyan-500/30 bg-cyan-500/10 px-4 py-1.5 text-xs font-semibold text-cyan-300 backdrop-blur-md mb-6 animate-fade-in shadow-[0_0_20px_rgba(6,182,212,0.15)]">
-          <Dumbbell className="h-3.5 w-3.5 text-cyan-400" />
-          <span>The Cognitive Brain GYM for Human-Centric Skills & Boss of AI Agents</span>
+          <Sparkles className="h-3.5 w-3.5 text-cyan-400" />
+          <span>Readiness for Abundant Intelligence • Dual-Engine Architecture</span>
         </div>
 
         {/* Main Title */}
@@ -38,66 +39,75 @@ export const Hero: React.FC = () => {
           </span>
         </h1>
 
+        {/* Core Strategic Mission Statement */}
+        <div className="text-lg sm:text-2xl font-heading font-semibold text-white max-w-4xl mx-auto mb-4 tracking-tight">
+          Preparing Educational Institutions, the Academic Community, and Thereby Society for Abundant Intelligence
+        </div>
+
         {/* Subtitle */}
-        <p className="text-base sm:text-lg md:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed mb-10 font-normal">
-          Follow your dreams and build our common future through projects utilizing{" "}
-          <strong className="text-white">Human + Augmented Intelligence</strong> — Empowering students & faculty to master human centric future skill, secure marquee internships, create patentable IP, and orchestrate AI agents with{" "}
-          <strong className="text-cyan-300">you as the BOSS of agents</strong>.
+        <p className="text-base sm:text-lg text-slate-300 max-w-3xl mx-auto leading-relaxed mb-10 font-normal">
+          Empowering educational leaders, faculty, and learners through the{" "}
+          <strong className="text-cyan-300">T.R.A.C.K. Framework</strong>, the{" "}
+          <strong className="text-purple-300">Srujana Pathway</strong>, and an{" "}
+          <strong className="text-white">AI-Native Project Engine</strong> with{" "}
+          <strong className="text-cyan-300">you as the BOSS of AI agents (HEITL)</strong>.
         </p>
 
-        {/* Triad Framework Banner (WHAT - HOW - RESULTING IN) */}
+        {/* Cascading Transformation 3-Tier Banner */}
         <div className="max-w-4xl mx-auto rounded-2xl border border-white/10 bg-slate-900/60 p-6 sm:p-8 backdrop-blur-xl shadow-2xl mb-10 text-left">
+          <div className="text-xs uppercase font-bold tracking-widest text-cyan-400 mb-4 flex items-center gap-1.5">
+            <Layers className="h-3.5 w-3.5" />
+            The Cascading Theory of Transformation
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 divide-y md:divide-y-0 md:divide-x divide-white/10">
-            {/* What */}
+            {/* 1. Institutions */}
             <div className="space-y-2 pt-2 md:pt-0">
               <div className="inline-block rounded-md bg-indigo-500/20 px-2.5 py-0.5 text-xs font-bold text-indigo-300">
-                WHAT
+                1. THE FOUNDATION
               </div>
-              <p className="text-xs sm:text-sm text-slate-200 font-medium leading-snug">
-                <span className="text-cyan-400 font-bold">P</span>ipeline for{" "}
-                <span className="text-cyan-400 font-bold">R</span>esearch{" "}
-                <span className="text-cyan-400 font-bold">O</span>riented{" "}
-                <span className="text-cyan-400 font-bold">D</span>evelopment with{" "}
-                <span className="text-cyan-400 font-bold">I</span>ntelligence of{" "}
-                <span className="text-cyan-400 font-bold">G</span>lobal{" "}
-                <span className="text-cyan-400 font-bold">Y</span>outh for{" "}
-                <span className="text-cyan-400 font-bold underline">M</span>ankind.
+              <div className="text-sm font-bold text-white">Educational Institutions</div>
+              <p className="text-xs text-slate-300 leading-snug">
+                Institutional Strategic Plans, living curricula updated quarterly, and compute sandboxes for friction-free innovation.
               </p>
             </div>
 
-            {/* How */}
+            {/* 2. Academic Community */}
             <div className="space-y-2 pt-4 md:pt-0 md:pl-6">
               <div className="inline-block rounded-md bg-purple-500/20 px-2.5 py-0.5 text-xs font-bold text-purple-300">
-                HOW
+                2. THE CATALYST
               </div>
-              <p className="text-xs sm:text-sm text-slate-300 leading-snug">
-                Structured series of learning-to-innovation projects with clear outcomes, timelines, and resources — orchestrated via AI agent loops with{" "}
-                <strong className="text-white">you as the BOSS of agents</strong>.
+              <div className="text-sm font-bold text-white">The Academic Community</div>
+              <p className="text-xs text-slate-300 leading-snug">
+                Faculty empowered by <strong className="text-indigo-300">T.R.A.C.K.</strong> (Teaching, Research/VC, Guru Mentorship, Community, Kaizen) and Learners by <strong className="text-purple-300">Srujana</strong>.
               </p>
             </div>
 
-            {/* Resulting In */}
+            {/* 3. Society & Industry */}
             <div className="space-y-2 pt-4 md:pt-0 md:pl-6">
               <div className="inline-block rounded-md bg-cyan-500/20 px-2.5 py-0.5 text-xs font-bold text-cyan-300">
-                RESULTING IN
+                3. THE OUTCOME
               </div>
-              <div className="text-xs sm:text-sm font-semibold text-transparent bg-gradient-to-r from-cyan-300 to-indigo-300 bg-clip-text">
-                STRATEGIC TRIAD:
-                <div className="text-white font-bold text-sm tracking-wide mt-1">
-                  TALENT • ECOSYSTEM • VENTURES
-                </div>
-              </div>
+              <div className="text-sm font-bold text-white">Society & Industry</div>
+              <p className="text-xs text-slate-300 leading-snug">
+                Democratized lifelong AI literacy, centaur workforce reskilling, and regional venture spin-offs solving real problems.
+              </p>
             </div>
           </div>
         </div>
 
         {/* CTA Action Buttons */}
         <div className="flex flex-wrap items-center justify-center gap-4 mb-16">
-          <a href="#brain-gym">
+          <a href="#track">
             <Button size="lg" variant="gym" className="gap-2 text-sm shadow-xl">
-              <Dumbbell className="h-4 w-4" />
-              <span>Explore Brain GYM</span>
+              <span>Explore T.R.A.C.K. Framework</span>
               <ArrowRight className="h-4 w-4" />
+            </Button>
+          </a>
+
+          <a href="#projects">
+            <Button size="lg" variant="outline" className="gap-2 text-sm text-slate-200">
+              <BookOpen className="h-4 w-4 text-cyan-400" />
+              <span>AI-Native Projects</span>
             </Button>
           </a>
 
@@ -106,15 +116,8 @@ export const Hero: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button size="lg" variant="outline" className="gap-2 text-sm text-slate-200">
-              <BookOpen className="h-4 w-4 text-indigo-400" />
-              <span>Read Executive Concept Note</span>
-            </Button>
-          </a>
-
-          <a href="#contact">
             <Button size="lg" variant="secondary" className="text-sm bg-slate-800/80 hover:bg-slate-700">
-              Join Ecosystem
+              Executive Concept Note
             </Button>
           </a>
         </div>
@@ -135,7 +138,7 @@ export const Hero: React.FC = () => {
               rel="noopener noreferrer"
               className="text-cyan-400 hover:underline ml-1"
             >
-              (LinkedIn →)
+              (LinkedIn ↗)
             </a>
           </div>
         </div>

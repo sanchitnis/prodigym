@@ -1,23 +1,24 @@
-import React, { useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+﻿import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import {
-  Sparkles,
   Dumbbell,
   Compass,
   Trophy,
   Users,
   BookOpen,
-  Github,
-  Menu,
-  X,
+  Sparkles,
   LogIn,
   LogOut,
   User,
   ShieldCheck,
-  Zap,
+  Github,
+  Menu,
+  X,
+  FolderGit2,
 } from "lucide-react";
+import { useAuth } from "@/contexts/AuthContext";
 import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -26,20 +27,19 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { useAuth } from "@/contexts/AuthContext";
+import { Badge } from "@/components/ui/badge";
 
 export const Header: React.FC = () => {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const { user, signInWithGoogle, signOut } = useAuth();
-  const location = useLocation();
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navLinks = [
-    { label: "Brain GYM", href: "/#brain-gym", icon: Dumbbell, highlight: true },
-    { label: "Pathway", href: "/#pathway", icon: Compass },
+    { label: "T.R.A.C.K.", href: "/#track", icon: Sparkles, highlight: true },
+    { label: "Projects", href: "/#projects", icon: FolderGit2 },
+    { label: "Brain GYM", href: "/#brain-gym", icon: Dumbbell },
+    { label: "Srujana Pathway", href: "/#pathway", icon: Compass },
     { label: "Solutions & IP", href: "/#solutions", icon: Sparkles },
     { label: "Leaderboard", href: "/#leaderboard", icon: Trophy },
-    { label: "Governance", href: "/#governance", icon: Users },
     { label: "Wiki", href: "https://github.com/sanchitnis/prodigym/blob/main/wiki/index.md", icon: BookOpen, external: true },
   ];
 
@@ -60,7 +60,7 @@ export const Header: React.FC = () => {
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden lg:flex items-center gap-1">
+        <nav className="hidden xl:flex items-center gap-1">
           {navLinks.map((item) => {
             const Icon = item.icon;
             return (
@@ -178,7 +178,7 @@ export const Header: React.FC = () => {
 
       {/* Mobile Navigation Dropdown */}
       {mobileMenuOpen && (
-        <div className="lg:hidden border-b border-white/10 bg-slate-950/95 px-4 py-4 space-y-2 backdrop-blur-xl">
+        <div className="xl:hidden border-b border-white/10 bg-slate-950/95 px-4 py-4 space-y-2 backdrop-blur-xl">
           {navLinks.map((item) => (
             <a
               key={item.label}
