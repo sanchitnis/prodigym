@@ -1,9 +1,9 @@
-﻿# PROdiGYM Strategic Knowledge Base
+# PROdiGYM Strategic Knowledge Base
 
 Welcome to the PROdiGYM Wiki. This knowledge base captures the foundational philosophies, execution methodologies, and agentic workflows required to prepare society for the era of abundant intelligence.
 
 ## 🧭 Core Strategic Pillars
-1. **[The Cascading Strategic Vision](../strategy/concept-note.md)**: Educational Institutions $\rightarrow$ Academic Community $\rightarrow$ Society.
+1. **[The Cascading Theory of Transformation](cascading_theory_of_transformation.md)**: The foundational strategic logic — Educational Institutions → Academic Community → Society.
 2. **[The T.R.A.C.K. Framework](track_framework.md)**: The operating system for Faculty and Educators.
 3. **[The Srujana Pathway](srujana_pathway.md)**: The experiential learner journey for learners of all types.
 

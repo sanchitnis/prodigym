@@ -6,6 +6,7 @@ import { AuthProvider } from "@/contexts/AuthContext";
 import { Index } from "@/pages/Index";
 import { AuthCallback } from "@/pages/AuthCallback";
 import { MemberPortal } from "@/pages/MemberPortal";
+import { CascadingTheory } from "@/pages/CascadingTheory";
 import { NotFound } from "@/pages/NotFound";
 
 export function App() {
@@ -17,6 +18,7 @@ export function App() {
             <Route path="/" element={<Index />} />
             <Route path="/auth/callback" element={<AuthCallback />} />
             <Route path="/portal" element={<MemberPortal />} />
+            <Route path="/cascading-theory" element={<CascadingTheory />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
           <Toaster richColors position="top-right" theme="dark" />

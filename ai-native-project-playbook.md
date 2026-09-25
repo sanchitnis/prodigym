@@ -1,12 +1,12 @@
-﻿# AI-Native Project Playbook - PROdiGYM
+# AI-Native Project Playbook - PROdiGYM
 
 This playbook defines how collaborative projects in PROdiGYM move from an initial spark into high-impact, deployed assets through human-in-the-loop AI pairing.
 
 ---
 
-## 🔁 The Chronological & Concept Dependency Artifact Loop
+## 🔁 The AI-Native Project Loop for Creating Artifacts
 
-All project files are sequentially numbered (0 onwards) so that they appear in exact chronological creation and concept dependency order in all directory listings:
+All project files are numbered sequentially so that they appear in exact chronological creation and concept dependency order in all directory listings:
 
 ```text
 projects/<project-slug>/

@@ -1,4 +1,4 @@
-﻿import React, { useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import {
   Dumbbell,
@@ -15,6 +15,7 @@ import {
   Menu,
   X,
   FolderGit2,
+  Layers,
 } from "lucide-react";
 import { useAuth } from "@/contexts/AuthContext";
 import { Button } from "@/components/ui/button";
@@ -34,6 +35,7 @@ export const Header: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navLinks = [
+    { label: "Cascading Theory", href: "/cascading-theory", icon: Layers, internal: true },
     { label: "T.R.A.C.K.", href: "/#track", icon: Sparkles, highlight: true },
     { label: "Projects", href: "/#projects", icon: FolderGit2 },
     { label: "Brain GYM", href: "/#brain-gym", icon: Dumbbell },
@@ -63,17 +65,28 @@ export const Header: React.FC = () => {
         <nav className="hidden xl:flex items-center gap-1">
           {navLinks.map((item) => {
             const Icon = item.icon;
+            const className = `flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
+              item.highlight
+                ? "text-cyan-300 bg-cyan-500/10 border border-cyan-500/20 hover:bg-cyan-500/20"
+                : item.internal && !item.highlight
+                ? "text-indigo-300 bg-indigo-500/10 border border-indigo-500/20 hover:bg-indigo-500/20"
+                : "text-slate-300 hover:text-white hover:bg-white/5"
+            }`;
+            if (item.internal) {
+              return (
+                <Link key={item.label} to={item.href} className={className}>
+                  <Icon className={`h-4 w-4 ${item.highlight ? "text-cyan-400" : "text-indigo-400"}`} />
+                  {item.label}
+                </Link>
+              );
+            }
             return (
               <a
                 key={item.label}
                 href={item.href}
                 target={item.external ? "_blank" : undefined}
                 rel={item.external ? "noopener noreferrer" : undefined}
-                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
-                  item.highlight
-                    ? "text-cyan-300 bg-cyan-500/10 border border-cyan-500/20 hover:bg-cyan-500/20"
-                    : "text-slate-300 hover:text-white hover:bg-white/5"
-                }`}
+                className={className}
               >
                 <Icon className={`h-4 w-4 ${item.highlight ? "text-cyan-400" : "text-slate-400"}`} />
                 {item.label}

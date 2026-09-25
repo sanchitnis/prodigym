@@ -53,44 +53,40 @@ export const Hero: React.FC = () => {
           <strong className="text-cyan-300">you as the Human Expert Orchestrator of AI Agents</strong>.
         </p>
 
-        {/* Cascading Transformation 3-Tier Banner */}
-        <div className="max-w-4xl mx-auto rounded-2xl border border-white/10 bg-slate-900/60 p-6 sm:p-8 backdrop-blur-xl shadow-2xl mb-10 text-left">
-          <div className="text-xs uppercase font-bold tracking-widest text-cyan-400 mb-4 flex items-center gap-1.5">
-            <Layers className="h-3.5 w-3.5" />
-            The Cascading Theory of Transformation
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 divide-y md:divide-y-0 md:divide-x divide-white/10">
-            {/* 1. Institutions */}
-            <div className="space-y-2 pt-2 md:pt-0">
-              <div className="inline-block rounded-md bg-indigo-500/20 px-2.5 py-0.5 text-xs font-bold text-indigo-300">
-                1. THE FOUNDATION
+        {/* Cascading Theory Teaser → links to /cascading-theory subpage */}
+        <div className="max-w-4xl mx-auto rounded-2xl border border-indigo-500/20 bg-slate-900/60 p-5 sm:p-6 backdrop-blur-xl shadow-xl mb-10 text-left">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+            <div className="flex items-start gap-3">
+              <div className="p-2 rounded-lg bg-indigo-500/15 text-indigo-300 shrink-0 mt-0.5">
+                <Layers className="h-4 w-4" />
               </div>
-              <div className="text-sm font-bold text-white">Educational Institutions</div>
-              <p className="text-xs text-slate-300 leading-snug">
-                Institutional Strategic Plans, living curricula updated quarterly, and compute sandboxes for friction-free innovation.
-              </p>
+              <div>
+                <div className="text-xs uppercase font-bold tracking-widest text-indigo-400 mb-1">
+                  Strategic Foundation
+                </div>
+                <div className="text-sm font-bold text-white mb-1">The Cascading Theory of Transformation</div>
+                <p className="text-xs text-slate-300 leading-snug max-w-lg">
+                  Educational Institutions <span className="text-indigo-300">→</span> Academic Community <span className="text-purple-300">→</span> Society & Industry — a structured cascade that systematically prepares society for Abundant Intelligence.
+                </p>
+              </div>
             </div>
-
-            {/* 2. Academic Community */}
-            <div className="space-y-2 pt-4 md:pt-0 md:pl-6">
-              <div className="inline-block rounded-md bg-purple-500/20 px-2.5 py-0.5 text-xs font-bold text-purple-300">
-                2. THE CATALYST
-              </div>
-              <div className="text-sm font-bold text-white">The Academic Community</div>
-              <p className="text-xs text-slate-300 leading-snug">
-                Faculty empowered by <strong className="text-indigo-300">T.R.A.C.K.</strong> (Teaching, Research/VC, Guru Mentorship, Community, Kaizen) and Learners by <strong className="text-purple-300">Srujana</strong>.
-              </p>
-            </div>
-
-            {/* 3. Society & Industry */}
-            <div className="space-y-2 pt-4 md:pt-0 md:pl-6">
-              <div className="inline-block rounded-md bg-cyan-500/20 px-2.5 py-0.5 text-xs font-bold text-cyan-300">
-                3. THE OUTCOME
-              </div>
-              <div className="text-sm font-bold text-white">Society & Industry</div>
-              <p className="text-xs text-slate-300 leading-snug">
-                Democratized lifelong AI literacy, centaur workforce reskilling, and regional venture spin-offs solving real problems.
-              </p>
+            <div className="flex items-center gap-2 shrink-0">
+              <Link
+                to="/cascading-theory"
+                className="inline-flex items-center gap-1.5 px-3 py-2 rounded-lg bg-indigo-500/15 hover:bg-indigo-500/25 border border-indigo-500/30 text-xs font-semibold text-indigo-300 transition-colors"
+              >
+                Explore
+                <ArrowRight className="h-3.5 w-3.5" />
+              </Link>
+              <a
+                href="https://github.com/sanchitnis/prodigym/blob/main/wiki/cascading_theory_of_transformation.md"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 px-3 py-2 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-semibold text-slate-300 transition-colors"
+              >
+                <BookOpen className="h-3.5 w-3.5" />
+                Wiki
+              </a>
             </div>
           </div>
         </div>
